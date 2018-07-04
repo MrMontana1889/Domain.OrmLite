@@ -1,0 +1,3961 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ConnectionAlreadyOpen" xml:space="preserve">
+    <value>The connection is already open.</value>
+  </data>
+  <data name="DomainDatabaseFormatNotRecognized" xml:space="preserve">
+    <value>Database format not recognized or read-only.  It could not be opened.</value>
+  </data>
+  <data name="ManagerIsAlreadyOpen" xml:space="preserve">
+    <value>The manager is already open.</value>
+  </data>
+  <data name="_tr_Bills" xml:space="preserve">
+    <value>Bills</value>
+  </data>
+  <data name="_tr_Food" xml:space="preserve">
+    <value>Food</value>
+  </data>
+  <data name="_tr_Leisure" xml:space="preserve">
+    <value>Leisure</value>
+  </data>
+  <data name="_tr_Automobile" xml:space="preserve">
+    <value>Automobile</value>
+  </data>
+  <data name="_tr_Education" xml:space="preserve">
+    <value>Education</value>
+  </data>
+  <data name="_tr_Homeneeds" xml:space="preserve">
+    <value>Homeneeds</value>
+  </data>
+  <data name="_tr_Healthcare" xml:space="preserve">
+    <value>Healthcare</value>
+  </data>
+  <data name="_tr_Insurance" xml:space="preserve">
+    <value>Insurance</value>
+  </data>
+  <data name="_tr_Vacation" xml:space="preserve">
+    <value>Vacation</value>
+  </data>
+  <data name="_tr_Taxes" xml:space="preserve">
+    <value>Taxes</value>
+  </data>
+  <data name="_tr_Miscellaneous" xml:space="preserve">
+    <value>Miscellaneous</value>
+  </data>
+  <data name="_tr_Gifts" xml:space="preserve">
+    <value>Gifts</value>
+  </data>
+  <data name="_tr_Income" xml:space="preserve">
+    <value>Income</value>
+  </data>
+  <data name="_tr_Other Income" xml:space="preserve">
+    <value>Other Income</value>
+  </data>
+  <data name="_tr_Other Expenses" xml:space="preserve">
+    <value>Other Expenses</value>
+  </data>
+  <data name="_tr_Transfer" xml:space="preserve">
+    <value>Transfer</value>
+  </data>
+  <data name="_tr_Telephone" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="_tr_Electricity" xml:space="preserve">
+    <value>Electricity</value>
+  </data>
+  <data name="_tr_Gas" xml:space="preserve">
+    <value>Gas</value>
+  </data>
+  <data name="_tr_Internet" xml:space="preserve">
+    <value>Internet</value>
+  </data>
+  <data name="_tr_Rent" xml:space="preserve">
+    <value>Rent</value>
+  </data>
+  <data name="_tr_Cable TV" xml:space="preserve">
+    <value>Cable TV</value>
+  </data>
+  <data name="_tr_Water" xml:space="preserve">
+    <value>Water</value>
+  </data>
+  <data name="_tr_Groceries" xml:space="preserve">
+    <value>Groceries</value>
+  </data>
+  <data name="_tr_Dining out" xml:space="preserve">
+    <value>Dining out</value>
+  </data>
+  <data name="_tr_Movies" xml:space="preserve">
+    <value>Movies</value>
+  </data>
+  <data name="_tr_Video Rental" xml:space="preserve">
+    <value>Video Rental</value>
+  </data>
+  <data name="_tr_Magazines" xml:space="preserve">
+    <value>Magazines</value>
+  </data>
+  <data name="_tr_Maintenance" xml:space="preserve">
+    <value>Maintenance</value>
+  </data>
+  <data name="_tr_Parking" xml:space="preserve">
+    <value>Parking</value>
+  </data>
+  <data name="_tr_Registration" xml:space="preserve">
+    <value>Registration</value>
+  </data>
+  <data name="_tr_Books" xml:space="preserve">
+    <value>Books</value>
+  </data>
+  <data name="_tr_Tuition" xml:space="preserve">
+    <value>Tuition</value>
+  </data>
+  <data name="_tr_Others" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="_tr_Clothing" xml:space="preserve">
+    <value>Clothing</value>
+  </data>
+  <data name="_tr_Furnishing" xml:space="preserve">
+    <value>Furnishing</value>
+  </data>
+  <data name="_tr_Health" xml:space="preserve">
+    <value>Health</value>
+  </data>
+  <data name="_tr_Dental" xml:space="preserve">
+    <value>Dental</value>
+  </data>
+  <data name="_tr_Eyecare" xml:space="preserve">
+    <value>Eyecare</value>
+  </data>
+  <data name="_tr_Physician" xml:space="preserve">
+    <value>Physician</value>
+  </data>
+  <data name="_tr_Prescriptions" xml:space="preserve">
+    <value>Prescriptions</value>
+  </data>
+  <data name="_tr_Auto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="_tr_Life" xml:space="preserve">
+    <value>Life</value>
+  </data>
+  <data name="_tr_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="_tr_Travel" xml:space="preserve">
+    <value>Travel</value>
+  </data>
+  <data name="_tr_Lodging" xml:space="preserve">
+    <value>Lodging</value>
+  </data>
+  <data name="_tr_Sightseeing" xml:space="preserve">
+    <value>Sightseeing</value>
+  </data>
+  <data name="_tr_Income Tax" xml:space="preserve">
+    <value>Income Tax</value>
+  </data>
+  <data name="_tr_House Tax" xml:space="preserve">
+    <value>House Tax</value>
+  </data>
+  <data name="_tr_Water Tax" xml:space="preserve">
+    <value>Water Tax</value>
+  </data>
+  <data name="_tr_Salary" xml:space="preserve">
+    <value>Salary</value>
+  </data>
+  <data name="_tr_Reimbursement/Refunds" xml:space="preserve">
+    <value>Reimbursement/Refunds</value>
+  </data>
+  <data name="_tr_Investment Income" xml:space="preserve">
+    <value>Investment Income</value>
+  </data>
+  <data name="ManagerIsNotOpen" xml:space="preserve">
+    <value>The data source is not open.</value>
+  </data>
+  <data name="PayeeLabel" xml:space="preserve">
+    <value>Payee</value>
+  </data>
+  <data name="TransactionCodeLabel" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="TransactionNumberLabel" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="CategoryLabel" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="SubcategoryLabel" xml:space="preserve">
+    <value>Subcategory</value>
+  </data>
+  <data name="TransactionDateLabel" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="FollowUpID" xml:space="preserve">
+    <value>Follow-up</value>
+  </data>
+  <data name="ToTransactionAmount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="ToAccountName" xml:space="preserve">
+    <value>Account Name</value>
+  </data>
+  <data name="CategoryNameLabel" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="SubcategoryNameLabel" xml:space="preserve">
+    <value>Subcategory</value>
+  </data>
+  <data name="BalanceLabel" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="AmountLabel" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="WithdrawalLabel" xml:space="preserve">
+    <value>Withdrawal</value>
+  </data>
+  <data name="DepositLabel" xml:space="preserve">
+    <value>Deposit</value>
+  </data>
+  <data name="IdLabel" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="StatusLabel" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="PayeeNameLabel" xml:space="preserve">
+    <value>Payee</value>
+  </data>
+  <data name="NotesLabel" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="AccountNameLabel" xml:space="preserve">
+    <value>Account Name</value>
+  </data>
+  <data name="AccountNumberLabel" xml:space="preserve">
+    <value>Account Number</value>
+  </data>
+  <data name="AccountTypeLabel" xml:space="preserve">
+    <value>Account Type</value>
+  </data>
+  <data name="InitialBalanceLabel" xml:space="preserve">
+    <value>Initial Balance</value>
+  </data>
+  <data name="FavoriteAccountLabel" xml:space="preserve">
+    <value>Favoriate</value>
+  </data>
+  <data name="HeldAtLabel" xml:space="preserve">
+    <value>Held At</value>
+  </data>
+  <data name="FilterAccountLabel" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="FilterDateRangeLabel" xml:space="preserve">
+    <value>Date Range</value>
+  </data>
+  <data name="FilterPayeeLabel" xml:space="preserve">
+    <value>Payee</value>
+  </data>
+  <data name="FilterCategoryLabel" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="FilterStatusLabel" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="FilterTypeLabel" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="FilterAmountRangeLabel" xml:space="preserve">
+    <value>Amount Range</value>
+  </data>
+  <data name="FilterNumberLabel" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="FilterNotesLabel" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="IncludeSimilarLabel" xml:space="preserve">
+    <value>Include Similar</value>
+  </data>
+  <data name="Date1Label" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="Date2Label" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="Amount_MinLabel" xml:space="preserve">
+    <value>Amount (Min)</value>
+  </data>
+  <data name="Amount_MaxLabel" xml:space="preserve">
+    <value>Amount (Max)</value>
+  </data>
+  <data name="AccountLabel" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="FilterTransactionStatusLabel" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="TransferToLabel" xml:space="preserve">
+    <value>Transfer To</value>
+  </data>
+  <data name="TransferFromLabel" xml:space="preserve">
+    <value>Transfer From</value>
+  </data>
+  <data name="WebsiteLabel" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="ContactInfoLabel" xml:space="preserve">
+    <value>Contact Info</value>
+  </data>
+  <data name="AccessInfoLabel" xml:space="preserve">
+    <value>Access Info</value>
+  </data>
+  <data name="StatementLockedLabel" xml:space="preserve">
+    <value>Statement Locked</value>
+  </data>
+  <data name="MinimumBalanceLabel" xml:space="preserve">
+    <value>Minimum Balance</value>
+  </data>
+  <data name="CreditLimitLabel" xml:space="preserve">
+    <value>Credit Limit</value>
+  </data>
+  <data name="InterestRateLabel" xml:space="preserve">
+    <value>Interest Rate</value>
+  </data>
+  <data name="PaymentDueDateLabel" xml:space="preserve">
+    <value>Payment Due Date</value>
+  </data>
+  <data name="MinimumPaymentLabel" xml:space="preserve">
+    <value>Minimum Payment</value>
+  </data>
+  <data name="StatementDateLabel" xml:space="preserve">
+    <value>Statement Date</value>
+  </data>
+  <data name="ACCOUNTLIST_V1IdLabel" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="TransactionAmountLabel" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="ToAccountIDLabel" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="AdvancedTransferLabel" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="SplitTransactionLabel" xml:space="preserve">
+    <value>Splits</value>
+  </data>
+  <data name="9995A017-0DFD-4A3B-8AA3-753F9759BA94" xml:space="preserve">
+    <value>Bank Accounts</value>
+  </data>
+  <data name="E0D40EC8-3985-4073-8DD6-76634FB4D808" xml:space="preserve">
+    <value>Home Page</value>
+  </data>
+  <data name="5BBC1FD4-4A94-4C85-94F3-61006D23E8F0" xml:space="preserve">
+    <value>Credit Card Accounts</value>
+  </data>
+  <data name="1AE716C9-116A-491D-9EAD-FFBA193AA40B" xml:space="preserve">
+    <value>Stock Portfolios</value>
+  </data>
+  <data name="6492E668-F840-47CC-8CDD-B5975ABEC0EF" xml:space="preserve">
+    <value>Term Accounts</value>
+  </data>
+  <data name="8269832C-5285-4341-A3BD-A809C8D2503C" xml:space="preserve">
+    <value>Assets</value>
+  </data>
+  <data name="AAD36604-68D0-42AC-9B0E-96F9A2FAB577" xml:space="preserve">
+    <value>Loan Accounts</value>
+  </data>
+  <data name="B130ADC5-D217-4CDA-B172-3EFC0685088D" xml:space="preserve">
+    <value>Cash Accounts</value>
+  </data>
+  <data name="A49DDF74-4403-49BC-BF96-D2AAD8E42303" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="hfa.FindNextUntitledProjectNameLeadFileStartNameIndex" xml:space="preserve">
+    <value>Untitled</value>
+  </data>
+  <data name="hfs.BackupCountBackupCountSeparatorBackupLevel" xml:space="preserve">
+    <value>%1%2</value>
+  </data>
+  <data name="hfa.BindingFieldDefinitionFormLabel" xml:space="preserve">
+    <value>%1:</value>
+  </data>
+  <data name="NoDataAvailable_ShortText" xml:space="preserve">
+    <value>(n/a)</value>
+  </data>
+  <data name="notAvailable_short" xml:space="preserve">
+    <value>(n/a)</value>
+  </data>
+  <data name="GlobalUserOptions_ExpandCategories" xml:space="preserve">
+    <value>Expand</value>
+  </data>
+  <data name="GlobalUserOptions_ShowHiddenCategories" xml:space="preserve">
+    <value>Show All</value>
+  </data>
+  <data name="ViewToolbarsHelp" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="AnalysisPumpCurve" xml:space="preserve">
+    <value>P&amp;ump Definitions...</value>
+  </data>
+  <data name="menuItemAppData.Text" xml:space="preserve">
+    <value>&amp;Application Data</value>
+  </data>
+  <data name="IsCustomResultFileLocation" xml:space="preserve">
+    <value>Specify custom results file path?</value>
+  </data>
+  <data name="CustomResultFileLocationRoot" xml:space="preserve">
+    <value>Root path</value>
+  </data>
+  <data name="CustomResultFileLocationFormat" xml:space="preserve">
+    <value>Path format</value>
+  </data>
+  <data name="CustomResultFileLocation" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="menuItemCommonAppData.Text" xml:space="preserve">
+    <value>C&amp;ommon Application Data</value>
+  </data>
+  <data name="menuItemCommonProgramFiles.Text" xml:space="preserve">
+    <value>&amp;Common Program Files</value>
+  </data>
+  <data name="menuItemDesktop.Text" xml:space="preserve">
+    <value>&amp;Desktop</value>
+  </data>
+  <data name="menuItemLocalAppData.Text" xml:space="preserve">
+    <value>&amp;Local Application Data</value>
+  </data>
+  <data name="menuItemMyDocuments.Text" xml:space="preserve">
+    <value>&amp;My Documents</value>
+  </data>
+  <data name="menuItemProgramFiles.Text" xml:space="preserve">
+    <value>&amp;Program Files</value>
+  </data>
+  <data name="menuItemProjectDirectory.Text" xml:space="preserve">
+    <value>&amp;Hydraulic Model Directory</value>
+  </data>
+  <data name="menuItemProjectFileName.Text" xml:space="preserve">
+    <value>&amp;Hydraulic Model File Name</value>
+  </data>
+  <data name="menuItemRootPath.Text" xml:space="preserve">
+    <value>&amp;Root Path</value>
+  </data>
+  <data name="physicalalternative" xml:space="preserve">
+    <value>Physical Alternative</value>
+  </data>
+  <data name="ViewZoomPrevious" xml:space="preserve">
+    <value>Zoom &amp;Previous</value>
+  </data>
+  <data name="IntegerIdentifierForIndirectField" xml:space="preserve">
+    <value>%1 (ID)</value>
+  </data>
+  <data name="StringIdentifierForIndirectField" xml:space="preserve">
+    <value>%1 (Label)</value>
+  </data>
+  <data name="EditFindElement" xml:space="preserve">
+    <value>&amp;Find Element...</value>
+  </data>
+  <data name="addexistingproject" xml:space="preserve">
+    <value>Add Existing Hydraulic Model...</value>
+  </data>
+  <data name="hmiNewLibraryFileDlgTitle" xml:space="preserve">
+    <value>File New Engineering Library</value>
+  </data>
+  <data name="hfwff.error.CopyDetailsToClipboardException" xml:space="preserve">
+    <value>Press Ctrl-C to copy details to clipboard:%n%n%1</value>
+  </data>
+  <data name="synchronizeNA" xml:space="preserve">
+    <value>(N/A)</value>
+  </data>
+  <data name="NotesFieldEditorForm" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="hmiSelectLibraryFileDlgTitle" xml:space="preserve">
+    <value>Open Existing Engineering Library</value>
+  </data>
+  <data name="FileImportLandXML" xml:space="preserve">
+    <value>&amp;LandXML...</value>
+  </data>
+  <data name="gravitystructurephysical" xml:space="preserve">
+    <value>Gravity Structure - Physical</value>
+  </data>
+  <data name="ViewLayers" xml:space="preserve">
+    <value>&amp;Background Layers</value>
+  </data>
+  <data name="hfwf.groupBoxConduitShapeLabels" xml:space="preserve">
+    <value>Conduit Description Options</value>
+  </data>
+  <data name="ambiguousLabel" xml:space="preserve">
+    <value>Select a single element.</value>
+  </data>
+  <data name="calculationoptionslabel" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="propertyGridCollectionWithCount" xml:space="preserve">
+    <value>&lt;Collection:</value>
+  </data>
+  <data name="hfwff.error.ErrorSavingMessages" xml:space="preserve">
+    <value>Error saving messages.</value>
+  </data>
+  <data name="basehmiactivetopologyalternative" xml:space="preserve">
+    <value>Base Active Topology</value>
+  </data>
+  <data name="ViewElementSymbology" xml:space="preserve">
+    <value>&amp;Element Symbology</value>
+  </data>
+  <data name="statusBarFiltered" xml:space="preserve">
+    <value>FILTERED</value>
+  </data>
+  <data name="basewaterqualityalternative" xml:space="preserve">
+    <value>Base Water Quality</value>
+  </data>
+  <data name="EditPaste" xml:space="preserve">
+    <value>&amp;Paste</value>
+  </data>
+  <data name="TreeViewProperties" xml:space="preserve">
+    <value>&amp;Properties</value>
+  </data>
+  <data name="hfwfc.FieldDefinitionLabelDisplayUnitFormat" xml:space="preserve">
+    <value>%1 (%2)</value>
+  </data>
+  <data name="helpclientcaresupport" xml:space="preserve">
+    <value>S&amp;upport...</value>
+  </data>
+  <data name="HelpServicesCivilQuizCom" xml:space="preserve">
+    <value>Civil&amp;Quiz.com</value>
+  </data>
+  <data name="usernotificationZoomTo" xml:space="preserve">
+    <value>Zoom To</value>
+  </data>
+  <data name="baseenergycostalternative" xml:space="preserve">
+    <value>Base Energy Cost Alternative</value>
+  </data>
+  <data name="EditDelete" xml:space="preserve">
+    <value>De&amp;lete</value>
+  </data>
+  <data name="ViewZoomExtents" xml:space="preserve">
+    <value>Zoom &amp;Extents</value>
+  </data>
+  <data name="ToolsResetDocking" xml:space="preserve">
+    <value>Reset &amp;Workspace...</value>
+  </data>
+  <data name="ViewNamedViews" xml:space="preserve">
+    <value>Na&amp;med Views</value>
+  </data>
+  <data name="TreeViewEdit" xml:space="preserve">
+    <value>&amp;Edit...</value>
+  </data>
+  <data name="childalternative" xml:space="preserve">
+    <value>Child Alternative</value>
+  </data>
+  <data name="baseagealternative" xml:space="preserve">
+    <value>Base Age Alternative</value>
+  </data>
+  <data name="ReportCalculationSummary" xml:space="preserve">
+    <value>Calculation &amp;Detailed Summary</value>
+  </data>
+  <data name="ToolsMenu" xml:space="preserve">
+    <value>&amp;Tools</value>
+  </data>
+  <data name="hfwfc.menu.New" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="materialreference" xml:space="preserve">
+    <value>Material Reference</value>
+  </data>
+  <data name="EditSelectByElement" xml:space="preserve">
+    <value>Select by &amp;Element</value>
+  </data>
+  <data name="linkphysical" xml:space="preserve">
+    <value>Link - Physical</value>
+  </data>
+  <data name="externalReferenceBrowseDialogTitle" xml:space="preserve">
+    <value>Select File...</value>
+  </data>
+  <data name="AnalysisAlternatives" xml:space="preserve">
+    <value>&amp;Alternatives</value>
+  </data>
+  <data name="AnalysisMenu" xml:space="preserve">
+    <value>&amp;Analysis</value>
+  </data>
+  <data name="hmiAddFolder" xml:space="preserve">
+    <value>Add Folder</value>
+  </data>
+  <data name="TreeViewRename" xml:space="preserve">
+    <value>&amp;Rename</value>
+  </data>
+  <data name="hfwfc.menu.Properties" xml:space="preserve">
+    <value>&amp;Properties</value>
+  </data>
+  <data name="ViewZoomRealtime" xml:space="preserve">
+    <value>Zoom &amp;Realtime</value>
+  </data>
+  <data name="basetracealternative" xml:space="preserve">
+    <value>Base Trace Alternative</value>
+  </data>
+  <data name="hfwfl.ProjectWiseIsNotCurrentlyInstalledOrIsNotEnabled" xml:space="preserve">
+    <value>ProjectWise is not currently installed or is not enabled.</value>
+  </data>
+  <data name="basehmidatasettopologyalternative" xml:space="preserve">
+    <value>Base Topology</value>
+  </data>
+  <data name="zoomExtentsOnOpen" xml:space="preserve">
+    <value>Zoom extents on open</value>
+  </data>
+  <data name="ViewToolbarsScenarios" xml:space="preserve">
+    <value>&amp;Scenarios</value>
+  </data>
+  <data name="baserainfallrunoffalternative" xml:space="preserve">
+    <value>Base Rainfall Runoff</value>
+  </data>
+  <data name="sanitaryloadingalternative" xml:space="preserve">
+    <value>Sanitary Loading Alternative</value>
+  </data>
+  <data name="gomenuTooltip" xml:space="preserve">
+    <value>Compute Scenario Menu</value>
+  </data>
+  <data name="synchronizeOrphan" xml:space="preserve">
+    <value>Orphan (local)</value>
+  </data>
+  <data name="helpservicescontents" xml:space="preserve">
+    <value>Contents</value>
+  </data>
+  <data name="updateexistingmodel" xml:space="preserve">
+    <value>Update Existing Model</value>
+  </data>
+  <data name="capitalcostalternative" xml:space="preserve">
+    <value>Capital Cost Alternative</value>
+  </data>
+  <data name="hfwff.ProgressSavingProjectEllipsis" xml:space="preserve">
+    <value>Saving %1 %2</value>
+  </data>
+  <data name="scenarioanimationtooltipPlay" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="editscenarioTooltip" xml:space="preserve">
+    <value>Scenario Properties</value>
+  </data>
+  <data name="basesanitaryloadingalternative" xml:space="preserve">
+    <value>Base Sanitary Loading</value>
+  </data>
+  <data name="project" xml:space="preserve">
+    <value>Hydraulic Model</value>
+  </data>
+  <data name="pondphysical" xml:space="preserve">
+    <value>Pond - Physical</value>
+  </data>
+  <data name="hfwfa.NewFolderWithHyphen" xml:space="preserve">
+    <value>Folder %1 </value>
+  </data>
+  <data name="basealternative" xml:space="preserve">
+    <value>Base Alternative</value>
+  </data>
+  <data name="scenariomanagerform" xml:space="preserve">
+    <value>Scenarios</value>
+  </data>
+  <data name="propertyGridNone" xml:space="preserve">
+    <value>&lt;None&gt;</value>
+  </data>
+  <data name="synchronizeNot" xml:space="preserve">
+    <value>Up to date.</value>
+  </data>
+  <data name="EngineeringLibraryAlreadyRegistered" xml:space="preserve">
+    <value>The engineering library %1 has already been added.</value>
+  </data>
+  <data name="editalternativeTooltip" xml:space="preserve">
+    <value>Edit Alternative</value>
+  </data>
+  <data name="hyphen" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="hfwff.StatusManagerFormRichTextBoxSectionLabel" xml:space="preserve">
+    <value>%n%1%n</value>
+  </data>
+  <data name="hmiMessageBoxCaption" xml:space="preserve">
+    <value>Problem</value>
+  </data>
+  <data name="sm_compute" xml:space="preserve">
+    <value>&amp;Compute</value>
+  </data>
+  <data name="hfwff.error.FormModelLastExceptionTypeNameDetails" xml:space="preserve">
+    <value>%1 Details</value>
+  </data>
+  <data name="hfwfc.error.CannotDeletePredefinedElements" xml:space="preserve">
+    <value>Cannot delete predefined elements.</value>
+  </data>
+  <data name="ToolsSelect" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="basescenario" xml:space="preserve">
+    <value>Base Scenario</value>
+  </data>
+  <data name="propertyGridCollectionWithCollectionCount" xml:space="preserve">
+    <value>&lt;Collection:%1</value>
+  </data>
+  <data name="Conduit" xml:space="preserve">
+    <value>Conduit</value>
+  </data>
+  <data name="m_proxyUserNotificationListViewControlLabel" xml:space="preserve">
+    <value>User Notifications</value>
+  </data>
+  <data name="propertyGridItem" xml:space="preserve">
+    <value>item</value>
+  </data>
+  <data name="tooltipAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="propertyGridSelect" xml:space="preserve">
+    <value>&lt;Select...&gt;</value>
+  </data>
+  <data name="scenarioanimationincrement" xml:space="preserve">
+    <value>Increment:</value>
+  </data>
+  <data name="ViewZoomCenter" xml:space="preserve">
+    <value>Zoom &amp;Center...</value>
+  </data>
+  <data name="ToolsAnnotation" xml:space="preserve">
+    <value>Annotation</value>
+  </data>
+  <data name="batchrun_selectall" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="addExternalReferenceFormTitle" xml:space="preserve">
+    <value>Add Hyperlink</value>
+  </data>
+  <data name="toolBarButtonRemove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="toolBarButtonSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="toolbarButtonRefreshUniquesValues" xml:space="preserve">
+    <value>Refresh Unique Values</value>
+  </data>
+  <data name="hfwff.StatusManagerFormRichTextBoxUpdateStatisticsManagerDescriptionDateElapsedTime" xml:space="preserve">
+    <value>%1%nDate: %2%nElapsed Time: %3.%n</value>
+  </data>
+  <data name="sm_makecurrent" xml:space="preserve">
+    <value>&amp;Make Current</value>
+  </data>
+  <data name="saveProject" xml:space="preserve">
+    <value>Save Hydraulic Model</value>
+  </data>
+  <data name="scenarioanimatioFrame" xml:space="preserve">
+    <value>Frame</value>
+  </data>
+  <data name="ReportElementDetails" xml:space="preserve">
+    <value>Element Details</value>
+  </data>
+  <data name="buttonCopy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="supportelementImportFrom" xml:space="preserve">
+    <value>Import from Library</value>
+  </data>
+  <data name="FilePrint" xml:space="preserve">
+    <value>&amp;Print</value>
+  </data>
+  <data name="agealternative" xml:space="preserve">
+    <value>Age Alternative</value>
+  </data>
+  <data name="Channel" xml:space="preserve">
+    <value>Channel</value>
+  </data>
+  <data name="FileExit" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="hfwff.MessageManagerNoMessages" xml:space="preserve">
+    <value>No messages.</value>
+  </data>
+  <data name="scenario" xml:space="preserve">
+    <value>Scenario</value>
+  </data>
+  <data name="m_propertyGridUserControl" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="tooltipSaveProject" xml:space="preserve">
+    <value>Save Hydraulic Model...</value>
+  </data>
+  <data name="rootCulvertInletDictionary" xml:space="preserve">
+    <value>Culvert Inlet Coefficients</value>
+  </data>
+  <data name="computechildren" xml:space="preserve">
+    <value>Children...</value>
+  </data>
+  <data name="helpservicesmultimediacd" xml:space="preserve">
+    <value>Multimedia CD...</value>
+  </data>
+  <data name="helptraining" xml:space="preserve">
+    <value>Bentley Institute &amp;Training</value>
+  </data>
+  <data name="progresssaving" xml:space="preserve">
+    <value>Saving</value>
+  </data>
+  <data name="reportscenarioTooltip" xml:space="preserve">
+    <value>Report Scenario</value>
+  </data>
+  <data name="hfwff.ProjectWiseClosingProject" xml:space="preserve">
+    <value>ProjectWise Closing - "%1"</value>
+  </data>
+  <data name="materialproperties" xml:space="preserve">
+    <value>Material Properties</value>
+  </data>
+  <data name="EditSelectAll" xml:space="preserve">
+    <value>Select &amp;All</value>
+  </data>
+  <data name="hfwfc.menu.Open" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="tooltipRemove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="ViewZoomOut" xml:space="preserve">
+    <value>Zoom &amp;Out</value>
+  </data>
+  <data name="baseoutputalternative" xml:space="preserve">
+    <value>Base Output</value>
+  </data>
+  <data name="helpservicesonlineforums" xml:space="preserve">
+    <value>Bentley C&amp;ommunities</value>
+  </data>
+  <data name="hfwfa.ProjectHasChangedDoYouWantToSaveThisProjectFile" xml:space="preserve">
+    <value>Hydraulic model %1 has changed.%nDo you want to save this hydraulic model file? </value>
+  </data>
+  <data name="hmiAddItem" xml:space="preserve">
+    <value>Add Item</value>
+  </data>
+  <data name="projectWiseMessageBoxTitle" xml:space="preserve">
+    <value>ProjectWise</value>
+  </data>
+  <data name="renamescenarioTooltip" xml:space="preserve">
+    <value>Rename Scenario</value>
+  </data>
+  <data name="scenarioanimationrockeranimation" xml:space="preserve">
+    <value>Rocker Animation</value>
+  </data>
+  <data name="helpserviceshaestadsite" xml:space="preserve">
+    <value>Haestad.com</value>
+  </data>
+  <data name="projectNotSaved" xml:space="preserve">
+    <value>Hydraulic Model Not Saved</value>
+  </data>
+  <data name="hfwff.QueryBuilderFormDomainElementTypeQueryElementLabel" xml:space="preserve">
+    <value> - %1</value>
+  </data>
+  <data name="AnalysisCompute" xml:space="preserve">
+    <value>&amp;Compute</value>
+  </data>
+  <data name="scenarioanimationtooltipPause" xml:space="preserve">
+    <value>Pause/Stop</value>
+  </data>
+  <data name="scenarioAnimationOptions_Record" xml:space="preserve">
+    <value>Record Video</value>
+  </data>
+  <data name="screenCaptureFormTitle" xml:space="preserve">
+    <value>Record Animation</value>
+  </data>
+  <data name="playbackFormTitle" xml:space="preserve">
+    <value>Video Player</value>
+  </data>
+  <data name="playbackFormClosingDirtyMessageText" xml:space="preserve">
+    <value>Would you like to save this animation recording?</value>
+  </data>
+  <data name="FileClose" xml:space="preserve">
+    <value>&amp;Close</value>
+  </data>
+  <data name="ViewToolbarsView" xml:space="preserve">
+    <value>&amp;View</value>
+  </data>
+  <data name="englibNewEngineeringReferenceLabel" xml:space="preserve">
+    <value>Reference</value>
+  </data>
+  <data name="ViewQueries" xml:space="preserve">
+    <value>&amp;Queries</value>
+  </data>
+  <data name="pressuredependentdemandalternative" xml:space="preserve">
+    <value>Pressure Dependent Demand Alternative</value>
+  </data>
+  <data name="confirmDeletePermanently" xml:space="preserve">
+    <value>This item will be deleted permanently.%n%nDelete "%1"?</value>
+  </data>
+  <data name="ToolsFlexUnits" xml:space="preserve">
+    <value>FlexUnits</value>
+  </data>
+  <data name="rootMaterialLibrary" xml:space="preserve">
+    <value>Material Libraries</value>
+  </data>
+  <data name="resumeProfileSelectionPrompt" xml:space="preserve">
+    <value>Click the select tool to resume profile selection.</value>
+  </data>
+  <data name="basedemandalternative" xml:space="preserve">
+    <value>Base Demand Alternative</value>
+  </data>
+  <data name="ReportContinuitySummary" xml:space="preserve">
+    <value>Continuity Summary</value>
+  </data>
+  <data name="confirmUndoableDelete" xml:space="preserve">
+    <value>This operation is not undoable (and will reset the undo history).%n%nAre you sure you want to delete "%1"?</value>
+  </data>
+  <data name="scenarioanimationtooltipReverse" xml:space="preserve">
+    <value>Play backward</value>
+  </data>
+  <data name="areYouSureYouWantToCancel" xml:space="preserve">
+    <value>Are you sure you want to cancel?</value>
+  </data>
+  <data name="areYouSureYouWantToCancelCaption" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="hfwff.StatusManagerSummary" xml:space="preserve">
+    <value>%1 Summary</value>
+  </data>
+  <data name="hfwfa.error.AnInternalSoftwareErrorHasOccurredCompanyNameCompanyPhone" xml:space="preserve">
+    <value>An internal software error has occurred. Diagnostic data about the error has been saved in the log file below. To report this error to %1 Technical Support, call %2.
+
+If you have unsaved work, save it to a new file using File &gt; Save As (after dismissing this dialog). To continue working, exit and restart the program, open the new file, then check it carefully.</value>
+  </data>
+  <data name="IncorrectFileTypeChosenFromProjectwise" xml:space="preserve">
+    <value>File selected is not of the correct type. Please select a file with one of the following extensions: %1</value>
+  </data>
+  <data name="new" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="hfwff.Message.AboutApplicationDescription" xml:space="preserve">
+    <value>About %1</value>
+  </data>
+  <data name="synchronizeNotAvailable" xml:space="preserve">
+    <value>Library Source Not Available</value>
+  </data>
+  <data name="hydrologicalternative" xml:space="preserve">
+    <value>Hydrology Alternative</value>
+  </data>
+  <data name="childscenario" xml:space="preserve">
+    <value>Child Scenario</value>
+  </data>
+  <data name="manholephysical" xml:space="preserve">
+    <value>Manhole - Physical</value>
+  </data>
+  <data name="ToolsActiveTopology" xml:space="preserve">
+    <value>Active Topology</value>
+  </data>
+  <data name="ToolsColorCoding" xml:space="preserve">
+    <value>Color Coding</value>
+  </data>
+  <data name="supportelementSynchronizeTo" xml:space="preserve">
+    <value>Synchronize to Library</value>
+  </data>
+  <data name="hfwff.StatusManagerFormRichTextBoxReportUpdateStatisticsManagerDescription" xml:space="preserve">
+    <value>%1%n </value>
+  </data>
+  <data name="hfwff.StatusManagerFormRichTextBoxItemCountItemLabel" xml:space="preserve">
+    <value>%1 %2%n</value>
+  </data>
+  <data name="renamealternativeTooltip" xml:space="preserve">
+    <value>Rename Alternative</value>
+  </data>
+  <data name="FileNew" xml:space="preserve">
+    <value>&amp;New</value>
+  </data>
+  <data name="ProjectNew" xml:space="preserve">
+    <value>&amp;New...</value>
+  </data>
+  <data name="menuitemNewBarChart" xml:space="preserve">
+    <value>Bar Chart Graph</value>
+  </data>
+  <data name="hfwff.StatusManagerFormRichTextBoxReportUpdateReportManagerReport" xml:space="preserve">
+    <value>%1 Report%n</value>
+  </data>
+  <data name="buttonCreateNewProject" xml:space="preserve">
+    <value>Create New Hydraulic Model</value>
+  </data>
+  <data name="hfwff.warning.NewProjectsMustBeSavedBeforeAttemptingCompact" xml:space="preserve">
+    <value>New hydraulic models must be saved before attempting compact.</value>
+  </data>
+  <data name="batchrun_complete" xml:space="preserve">
+    <value>Completed batch run of %1 scenarios.</value>
+  </data>
+  <data name="activetopology" xml:space="preserve">
+    <value>Active Topology</value>
+  </data>
+  <data name="newalternativemenuTooltip" xml:space="preserve">
+    <value>New Alternative Menu</value>
+  </data>
+  <data name="EngineeringLibraryManager" xml:space="preserve">
+    <value>Engineering Library Manager</value>
+  </data>
+  <data name="HelpReleaseNotes" xml:space="preserve">
+    <value>Release Notes</value>
+  </data>
+  <data name="ViewToolbarsAnalysis" xml:space="preserve">
+    <value>&amp;Analysis</value>
+  </data>
+  <data name="hfwfl.ProjectWiseHyperLink" xml:space="preserve">
+    <value>http://www.bentley.com/ProjectWise</value>
+  </data>
+  <data name="ViewCompute" xml:space="preserve">
+    <value>Compute</value>
+  </data>
+  <data name="selectElementFromDrawingPrompt" xml:space="preserve">
+    <value>Click in the drawing area to select an element.</value>
+  </data>
+  <data name="ViewToolbarsCompute" xml:space="preserve">
+    <value>&amp;Compute</value>
+  </data>
+  <data name="hfwff.StatusManagerFormRichTextBoxItemLabel" xml:space="preserve">
+    <value>%1%n</value>
+  </data>
+  <data name="FileOpen" xml:space="preserve">
+    <value>&amp;Open...</value>
+  </data>
+  <data name="AnalysisScenarios" xml:space="preserve">
+    <value>&amp;Scenarios</value>
+  </data>
+  <data name="synchronizeFromLibrary" xml:space="preserve">
+    <value>Synchronize from Library</value>
+  </data>
+  <data name="linkheadloss" xml:space="preserve">
+    <value>Link - Headloss</value>
+  </data>
+  <data name="supportelementExportTo" xml:space="preserve">
+    <value>Export to Library</value>
+  </data>
+  <data name="supportelementConnectTo" xml:space="preserve">
+    <value>Connect to Library</value>
+  </data>
+  <data name="hfwff.error.ErrorSavingStatistics" xml:space="preserve">
+    <value>Error saving statistics.</value>
+  </data>
+  <data name="constituentalternative" xml:space="preserve">
+    <value>Constituent Alternative</value>
+  </data>
+  <data name="View Prototypes" xml:space="preserve">
+    <value>&amp;Prototypes</value>
+  </data>
+  <data name="ViewToolbars" xml:space="preserve">
+    <value>&amp;Toolbars</value>
+  </data>
+  <data name="SelectFileToSave" xml:space="preserve">
+    <value>Specify File to Save</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="scenarioanimationtooltipBeginning" xml:space="preserve">
+    <value>Go to start</value>
+  </data>
+  <data name="ViewFlexTableManager" xml:space="preserve">
+    <value>&amp;FlexTables</value>
+  </data>
+  <data name="ViewZoom" xml:space="preserve">
+    <value>&amp;Zoom</value>
+  </data>
+  <data name="computescenario" xml:space="preserve">
+    <value>Scenario</value>
+  </data>
+  <data name="CloseOpenFlexTableCaptionUDX" xml:space="preserve">
+    <value>Close All FlexTables?</value>
+  </data>
+  <data name="HelpReferenceTables" xml:space="preserve">
+    <value>&amp;Reference Tables</value>
+  </data>
+  <data name="buttonTutorials" xml:space="preserve">
+    <value>Quick Start Lessons</value>
+  </data>
+  <data name="HelpServicesCivilProjectsCom" xml:space="preserve">
+    <value>CivilProjects.com</value>
+  </data>
+  <data name="ViewZoomNext" xml:space="preserve">
+    <value>Zoom &amp;Next</value>
+  </data>
+  <data name="AlternativeTreeNodeEditorModel" xml:space="preserve">
+    <value>Alternative</value>
+  </data>
+  <data name="batchrun_confirmquestion" xml:space="preserve">
+    <value>Run %1 scenarios now as a batch?</value>
+  </data>
+  <data name="helpservices" xml:space="preserve">
+    <value>Ser&amp;vices</value>
+  </data>
+  <data name="statusBarElementCount" xml:space="preserve">
+    <value>%1 of %2 elements displayed</value>
+  </data>
+  <data name="FileCloseAll" xml:space="preserve">
+    <value>C&amp;lose All</value>
+  </data>
+  <data name="ProjectwiseMustBeCheckedOutToRemove" xml:space="preserve">
+    <value>Hydraulic model located in ProjectWise datasource must be checked out and open before removing it's geodatabase reference</value>
+  </data>
+  <data name="hfwff.StatusManagerFormRichTextBoxUpdateStatisticsManagerSummary" xml:space="preserve">
+    <value>%1 Summary%n</value>
+  </data>
+  <data name="basefireflowalternative" xml:space="preserve">
+    <value>Base Fire Flow Alternative</value>
+  </data>
+  <data name="hmiRename" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="hfwfc.menu.Delete" xml:space="preserve">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="basephysicalalternative" xml:space="preserve">
+    <value>Base Physical</value>
+  </data>
+  <data name="rootCnLibrary" xml:space="preserve">
+    <value>CN Libraries</value>
+  </data>
+  <data name="helpupdate" xml:space="preserve">
+    <value>C&amp;heck for Updates</value>
+  </data>
+  <data name="waterqualityalternative" xml:space="preserve">
+    <value>Water Quality Alternative</value>
+  </data>
+  <data name="demandalternative" xml:space="preserve">
+    <value>Demand Alternative</value>
+  </data>
+  <data name="ViewToolbarsDrawing" xml:space="preserve">
+    <value>&amp;Layout</value>
+  </data>
+  <data name="hmiCreateLibrary" xml:space="preserve">
+    <value>Create Library...</value>
+  </data>
+  <data name="deletescenarioTooltip" xml:space="preserve">
+    <value>Delete Scenario</value>
+  </data>
+  <data name="ReportFlexTables" xml:space="preserve">
+    <value>Tables</value>
+  </data>
+  <data name="propertyGridTrue" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="frameworkOpeningFlexTableEyeCandy" xml:space="preserve">
+    <value>Opening FlexTable...</value>
+  </data>
+  <data name="ViewPrototypes" xml:space="preserve">
+    <value>Pr&amp;ototypes</value>
+  </data>
+  <data name="basehmidatasetgeometryalternative" xml:space="preserve">
+    <value>Base Geometry</value>
+  </data>
+  <data name="ToolsCompactDatabase" xml:space="preserve">
+    <value>&amp;Compact Database...</value>
+  </data>
+  <data name="UserNotificationDetailEditorForm" xml:space="preserve">
+    <value>User Notification Details</value>
+  </data>
+  <data name="validated" xml:space="preserve">
+    <value>VALIDATED</value>
+  </data>
+  <data name="ReportConvergenceSummary" xml:space="preserve">
+    <value>Calculation &amp;Executive Summary</value>
+  </data>
+  <data name="deletealternativeTooltip" xml:space="preserve">
+    <value>Delete Alternative</value>
+  </data>
+  <data name="ViewRefreshDrawing" xml:space="preserve">
+    <value>Refresh Draw&amp;ing</value>
+  </data>
+  <data name="hfwfc.FlexTableEditorFormTextFlexTableFlexTableElementLabel" xml:space="preserve">
+    <value>FlexTable: %1</value>
+  </data>
+  <data name="GutterLink" xml:space="preserve">
+    <value>Gutter</value>
+  </data>
+  <data name="AnalysisPatterns" xml:space="preserve">
+    <value>&amp;Patterns...</value>
+  </data>
+  <data name="FileExport" xml:space="preserve">
+    <value>Expor&amp;t</value>
+  </data>
+  <data name="addTo" xml:space="preserve">
+    <value>Add to</value>
+  </data>
+  <data name="scenarioanimationtooltipForward" xml:space="preserve">
+    <value>Step</value>
+  </data>
+  <data name="tracealternative" xml:space="preserve">
+    <value>Trace Alternative</value>
+  </data>
+  <data name="hfwff.CompactingDatabaseWillPurgeAllDeletedRecordsAndReclaimSpace" xml:space="preserve">
+    <value>Compacting the database will purge all deleted records and reclaim space.%nThe hydraulic model will be closed and reopened so that compact can proceed.%nDo you wish to compact the database now?</value>
+  </data>
+  <data name="scenarioanimationlose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="WetWell" xml:space="preserve">
+    <value>Wet Well</value>
+  </data>
+  <data name="ToolsOptions" xml:space="preserve">
+    <value>&amp;Options...</value>
+  </data>
+  <data name="hasChangedWantSave" xml:space="preserve">
+    <value>has changed.%nDo you want to save this hydraulic model file?</value>
+  </data>
+  <data name="ToolsEngineeringLibrary" xml:space="preserve">
+    <value>&amp;Engineering Libraries...</value>
+  </data>
+  <data name="hfwff.tooltip.Launch" xml:space="preserve">
+    <value>Launch</value>
+  </data>
+  <data name="hfwfa.ProjectNotSaved" xml:space="preserve">
+    <value>%1 Hydraulic Model Not Saved</value>
+  </data>
+  <data name="scenarioanimationframeoptions" xml:space="preserve">
+    <value>Frame Options</value>
+  </data>
+  <data name="hfwff.error.OperationTerminatedByUser" xml:space="preserve">
+    <value>Operation terminated by user.</value>
+  </data>
+  <data name="ViewZoomWindow" xml:space="preserve">
+    <value>Zoom &amp;Window</value>
+  </data>
+  <data name="unitsContextMenuItem" xml:space="preserve">
+    <value>Units and Formatting...</value>
+  </data>
+  <data name="hfwff.ProgressIndicatorClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="hfwff.StatusManagerFormRichTextBoxReportUpdateStatusManagerDateElapsedTime" xml:space="preserve">
+    <value>Date: %1%n</value>
+  </data>
+  <data name="batchrun_confirm" xml:space="preserve">
+    <value>Please Confirm</value>
+  </data>
+  <data name="EditMenu" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="outOfBounds" xml:space="preserve">
+    <value>The coordinates or measures are out of bounds.</value>
+  </data>
+  <data name="CrossSectionNode" xml:space="preserve">
+    <value>Cross Section</value>
+  </data>
+  <data name="hfwfa.menu.Material" xml:space="preserve">
+    <value>Material</value>
+  </data>
+  <data name="outputalternative" xml:space="preserve">
+    <value>Output Alternative</value>
+  </data>
+  <data name="dryloadalternative" xml:space="preserve">
+    <value>Infiltration and Inflow Alternative</value>
+  </data>
+  <data name="resumeSelectionPrompt" xml:space="preserve">
+    <value>Click the select tool to resume selection.</value>
+  </data>
+  <data name="ViewPan" xml:space="preserve">
+    <value>Pa&amp;n</value>
+  </data>
+  <data name="hfwff.error.ErrorSavingReport" xml:space="preserve">
+    <value>Error saving report.</value>
+  </data>
+  <data name="HelpWelcomeDialog" xml:space="preserve">
+    <value>&amp;Welcome Dialog</value>
+  </data>
+  <data name="hfwfa.warning.PleaseRemoveFileBeforePerformingThisOperation" xml:space="preserve">
+    <value>Please remove %1 before performing this operation.</value>
+  </data>
+  <data name="AnalysisValidate" xml:space="preserve">
+    <value>&amp;Validate</value>
+  </data>
+  <data name="hfwff.open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="toolBarButtonValidate" xml:space="preserve">
+    <value>Validate</value>
+  </data>
+  <data name="pondinitialcondition" xml:space="preserve">
+    <value>Initial Conditions</value>
+  </data>
+  <data name="ViewProperties" xml:space="preserve">
+    <value>&amp;Properties</value>
+  </data>
+  <data name="frameworkWinFormsEdit" xml:space="preserve">
+    <value>&amp;Edit...</value>
+  </data>
+  <data name="alternativecategory" xml:space="preserve">
+    <value>Alternatives</value>
+  </data>
+  <data name="baseinitialconditionalternative" xml:space="preserve">
+    <value>Base Initial Conditions</value>
+  </data>
+  <data name="tooltipNewProject" xml:space="preserve">
+    <value>New Hydraulic Model</value>
+  </data>
+  <data name="calculationoptions" xml:space="preserve">
+    <value>Calculation Options</value>
+  </data>
+  <data name="buildmodel" xml:space="preserve">
+    <value>Build Model</value>
+  </data>
+  <data name="EditUndo" xml:space="preserve">
+    <value>&amp;Undo</value>
+  </data>
+  <data name="EditRedo" xml:space="preserve">
+    <value>&amp;Redo</value>
+  </data>
+  <data name="hfwfa.EngineeringReferenceNextUntitledName" xml:space="preserve">
+    <value>%1 %2</value>
+  </data>
+  <data name="NumericFormatterEditorForm" xml:space="preserve">
+    <value>Set Field Options - %1</value>
+  </data>
+  <data name="FormulaDisplayUnitEditorForm" xml:space="preserve">
+    <value>Set Formula Unit - %1</value>
+  </data>
+  <data name="inletphysical" xml:space="preserve">
+    <value>Inlet - Physical</value>
+  </data>
+  <data name="batchrun" xml:space="preserve">
+    <value>Batch Run</value>
+  </data>
+  <data name="subtract" xml:space="preserve">
+    <value>Subtract</value>
+  </data>
+  <data name="supportelementSynchronizeFrom" xml:space="preserve">
+    <value>Synchronize from Library</value>
+  </data>
+  <data name="hfwfc.BindingFieldDefinitionCollectionStartingValue" xml:space="preserve">
+    <value>&lt;Collection</value>
+  </data>
+  <data name="reportalternativeTooltip" xml:space="preserve">
+    <value>Report Alternative</value>
+  </data>
+  <data name="ViewMenu" xml:space="preserve">
+    <value>&amp;View</value>
+  </data>
+  <data name="hfwff.AboutApplicationDescription" xml:space="preserve">
+    <value>About %1</value>
+  </data>
+  <data name="tooltipDuplicate" xml:space="preserve">
+    <value>Duplicate</value>
+  </data>
+  <data name="PressurePipe" xml:space="preserve">
+    <value>Pressure Pipe</value>
+  </data>
+  <data name="hmiAddExistingLibrary" xml:space="preserve">
+    <value>Add Existing Library...</value>
+  </data>
+  <data name="gutterphysical" xml:space="preserve">
+    <value>Gutter - Physical</value>
+  </data>
+  <data name="selectFromDrawingTitle" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="hfwf.FileNameLabel" xml:space="preserve">
+    <value>File Name:</value>
+  </data>
+  <data name="tooltipSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="hfwfc.SaveEngineeringLibraryAs" xml:space="preserve">
+    <value>Save Engineering Library As</value>
+  </data>
+  <data name="menuitemNewLineSeries" xml:space="preserve">
+    <value>Line-Series Graph</value>
+  </data>
+  <data name="Manhole" xml:space="preserve">
+    <value>Manhole</value>
+  </data>
+  <data name="basedryloadalternative" xml:space="preserve">
+    <value>Base Inflow</value>
+  </data>
+  <data name="labelUniqueValues" xml:space="preserve">
+    <value>Unique Values%1</value>
+  </data>
+  <data name="scenarioanimationtooltipEnd" xml:space="preserve">
+    <value>Go to end</value>
+  </data>
+  <data name="basecapitalcostalternative" xml:space="preserve">
+    <value>Base Capital Cost Alternative</value>
+  </data>
+  <data name="synchronizationError" xml:space="preserve">
+    <value>Error occurred while evaluating status.</value>
+  </data>
+  <data name="TreeViewDelete" xml:space="preserve">
+    <value>&amp;Delete</value>
+  </data>
+  <data name="basehydrologicalternative" xml:space="preserve">
+    <value>Base Hydrology</value>
+  </data>
+  <data name="boundaryconditionalternative" xml:space="preserve">
+    <value>Boundary Condition Alternative</value>
+  </data>
+  <data name="FilePrintSetup" xml:space="preserve">
+    <value>Page Set&amp;up...</value>
+  </data>
+  <data name="hmiSaveAs" xml:space="preserve">
+    <value>Save As...</value>
+  </data>
+  <data name="AddExternalReferenceForm.NoElementSpecified" xml:space="preserve">
+    <value>There is no element specified.  An element is required for this hyperlink.</value>
+  </data>
+  <data name="buttonReport" xml:space="preserve">
+    <value>&amp;Report</value>
+  </data>
+  <data name="ReportTables" xml:space="preserve">
+    <value>&amp;Element Tables</value>
+  </data>
+  <data name="batchrun_noscenariosselected" xml:space="preserve">
+    <value>Batch: No scenarios have been selected to run as batch.</value>
+  </data>
+  <data name="rootPumpCurveLibrary" xml:space="preserve">
+    <value>Pump Curve Libraries</value>
+  </data>
+  <data name="baseboundaryconditionalternative" xml:space="preserve">
+    <value>Base Boundary Condition</value>
+  </data>
+  <data name="baseoperationalalternative" xml:space="preserve">
+    <value>Base Operational Alternative</value>
+  </data>
+  <data name="FilePrintPreview" xml:space="preserve">
+    <value>Print Pre&amp;view</value>
+  </data>
+  <data name="hmiDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="InvalidEngineeringLibraryTypeMessage" xml:space="preserve">
+    <value>You have selected an engineering library file that does not contain %1 reference elements.%nPlease select an engineering library that contains %1 elements.</value>
+  </data>
+  <data name="hfwfl.warning.ProductProblem" xml:space="preserve">
+    <value>%1 Problem</value>
+  </data>
+  <data name="HelpSearch" xml:space="preserve">
+    <value>Search...</value>
+  </data>
+  <data name="prototype" xml:space="preserve">
+    <value>Prototype</value>
+  </data>
+  <data name="addToGraph" xml:space="preserve">
+    <value>Add to Graph</value>
+  </data>
+  <data name="initialsettingsalternative" xml:space="preserve">
+    <value>Initial Settings Alternative</value>
+  </data>
+  <data name="scenarioanimationloopanimation" xml:space="preserve">
+    <value>Loop Animation</value>
+  </data>
+  <data name="view" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="computebatch" xml:space="preserve">
+    <value>Batch Run...</value>
+  </data>
+  <data name="newalternativeTooltip" xml:space="preserve">
+    <value>New Child Alternative</value>
+  </data>
+  <data name="hmiRemoveSelectedMaterialLibrary" xml:space="preserve">
+    <value>Do you wish to unregister "%1"?</value>
+  </data>
+  <data name="CatchBasin" xml:space="preserve">
+    <value>Catch Basin</value>
+  </data>
+  <data name="ToolsStickyObjects" xml:space="preserve">
+    <value>&amp;Hyperlinks...</value>
+  </data>
+  <data name="hfwff.StatusManagerFormSaveMessagesFileName" xml:space="preserve">
+    <value>Messages</value>
+  </data>
+  <data name="statusBarSorted" xml:space="preserve">
+    <value>SORTED</value>
+  </data>
+  <data name="ViewSelectionSets" xml:space="preserve">
+    <value>Se&amp;lection Sets</value>
+  </data>
+  <data name="schematiclinkgeometry" xml:space="preserve">
+    <value>Schematic Link - Geometry</value>
+  </data>
+  <data name="frameworkNoLibrariesRegistered" xml:space="preserve">
+    <value>The Engineering Library registry is empty. Please reinstall the product in order to rebuild the available libraries for it.</value>
+  </data>
+  <data name="EditDrawingNavigator" xml:space="preserve">
+    <value>Networ&amp;k Navigator</value>
+  </data>
+  <data name="hfwff.Report" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="propertyGridCollection" xml:space="preserve">
+    <value>&lt;Collection&gt;</value>
+  </data>
+  <data name="BubbleGeneratorForm" xml:space="preserve">
+    <value>Bubble Generator Options</value>
+  </data>
+  <data name="BubbleGeneratorFormSizeLabel" xml:space="preserve">
+    <value>Size:</value>
+  </data>
+  <data name="BubbleGeneratorFormSpeedLabel" xml:space="preserve">
+    <value>Speed:</value>
+  </data>
+  <data name="BubbleGeneratorFormColorLabel" xml:space="preserve">
+    <value>Color:</value>
+  </data>
+  <data name="BubbleGeneratorFormPropertiesLabel" xml:space="preserve">
+    <value>Bubble Properties</value>
+  </data>
+  <data name="BubbleGeneratorFormFieldLabel" xml:space="preserve">
+    <value>Field</value>
+  </data>
+  <data name="BubbleGeneratorFormSavingToLabel" xml:space="preserve">
+    <value>Saving to:</value>
+  </data>
+  <data name="BubbleGeneratorFormSavedToText" xml:space="preserve">
+    <value>Saved to: </value>
+  </data>
+  <data name="BubbleGeneratorAnimationOptionsGroupBox" xml:space="preserve">
+    <value>Animation Options</value>
+  </data>
+  <data name="BubbleGeneratorNoResultsMessage" xml:space="preserve">
+    <value>Results must be computed before animation can be generated.</value>
+  </data>
+  <data name="frameworkWinFormsOpenFlexTable" xml:space="preserve">
+    <value>&amp;Open</value>
+  </data>
+  <data name="frameworkWinFormsOpenFlexTableOnSelection" xml:space="preserve">
+    <value>Open on &amp;Selection</value>
+  </data>
+  <data name="ScenarioAnimationControlOptionsForm" xml:space="preserve">
+    <value>Time Browser Options</value>
+  </data>
+  <data name="help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="PressureJunction" xml:space="preserve">
+    <value>Pressure Junction</value>
+  </data>
+  <data name="tooltipAddProject" xml:space="preserve">
+    <value>Add Hydraulic Model</value>
+  </data>
+  <data name="hfwfa.menu.Folder" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="tooltipOpenProject" xml:space="preserve">
+    <value>Open Hydraulic Model...</value>
+  </data>
+  <data name="gravitynodeheadloss" xml:space="preserve">
+    <value>Gravity Node - Headloss</value>
+  </data>
+  <data name="FileExportBackgroundDXF" xml:space="preserve">
+    <value>&amp;DXF...</value>
+  </data>
+  <data name="rootCatalogPipe" xml:space="preserve">
+    <value>Pipe Catalogs</value>
+  </data>
+  <data name="hfwfc.EngineeringLibraryFile" xml:space="preserve">
+    <value>Engineering Library File</value>
+  </data>
+  <data name="FileExportLandXML" xml:space="preserve">
+    <value>&amp;LandXML...</value>
+  </data>
+  <data name="tooltipCloseProject" xml:space="preserve">
+    <value>Close Hydraulic Model</value>
+  </data>
+  <data name="buttonOpenExistingProject" xml:space="preserve">
+    <value>Open Existing Hydraulic Model</value>
+  </data>
+  <data name="globalEditNone" xml:space="preserve">
+    <value>&lt;None&gt;</value>
+  </data>
+  <data name="AnalysisCalculationOptions" xml:space="preserve">
+    <value>Calculation &amp;Options</value>
+  </data>
+  <data name="HelpUpdateFromHaestadcom" xml:space="preserve">
+    <value>Check for Updates</value>
+  </data>
+  <data name="hfwfc.UnitizedFieldDefinitionDisplayLabelFormat" xml:space="preserve">
+    <value> (%1)</value>
+  </data>
+  <data name="tooltipResumeSelection" xml:space="preserve">
+    <value>Resume Selection</value>
+  </data>
+  <data name="operationalalternative" xml:space="preserve">
+    <value>Operational Alternative</value>
+  </data>
+  <data name="usernotificationExportTitle" xml:space="preserve">
+    <value>Select File to Export User Notifications To</value>
+  </data>
+  <data name="hfwfc.ScenarioAnimationPanelVCRComponentWidth" xml:space="preserve">
+    <value>275</value>
+  </data>
+  <data name="FileSaveAll" xml:space="preserve">
+    <value>Sav&amp;e All</value>
+  </data>
+  <data name="hfwff.StatusManagerFormRichText" xml:space="preserve">
+    <value>Rich Text</value>
+  </data>
+  <data name="engineeringlibrary" xml:space="preserve">
+    <value>Engineering Library</value>
+  </data>
+  <data name="tooltipCopy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="baseconstituentalternative" xml:space="preserve">
+    <value>Base Constituent Alternative</value>
+  </data>
+  <data name="ToolsDatabaseUtilities" xml:space="preserve">
+    <value>&amp;Database Utilities</value>
+  </data>
+  <data name="scenarioanimationtooltipBack" xml:space="preserve">
+    <value>Step backward</value>
+  </data>
+  <data name="Catchment" xml:space="preserve">
+    <value>Catchment</value>
+  </data>
+  <data name="SelectProjectFile" xml:space="preserve">
+    <value>Select Hydraulic Model to Open</value>
+  </data>
+  <data name="ToolsSelectionSets" xml:space="preserve">
+    <value>Selection Sets</value>
+  </data>
+  <data name="initialconditionalternative" xml:space="preserve">
+    <value>Initial Conditions</value>
+  </data>
+  <data name="hfwfa.menu.Add" xml:space="preserve">
+    <value>&amp;Add</value>
+  </data>
+  <data name="computehierarchy" xml:space="preserve">
+    <value>Hierarchy...</value>
+  </data>
+  <data name="AnalysisPumpCurveDefinitions" xml:space="preserve">
+    <value>Pu&amp;mp Definitions...</value>
+  </data>
+  <data name="propertyGridFalse" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="m_proxyQueryTreeViewLabel" xml:space="preserve">
+    <value>Queries</value>
+  </data>
+  <data name="hfwfa.menu.Library" xml:space="preserve">
+    <value>Library</value>
+  </data>
+  <data name="baseinitialsettingsalternative" xml:space="preserve">
+    <value>Base Initial Settings Alternative</value>
+  </data>
+  <data name="Pump" xml:space="preserve">
+    <value>Pump</value>
+  </data>
+  <data name="ToolsLayout" xml:space="preserve">
+    <value>&amp;Layout</value>
+  </data>
+  <data name="allFiles" xml:space="preserve">
+    <value>All Files</value>
+  </data>
+  <data name="open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="propertyGridItems" xml:space="preserve">
+    <value>items</value>
+  </data>
+  <data name="hfwff.QueryBuilderFormTextQuery" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="hfwfc.PropertyGridItemCountItemLabel" xml:space="preserve">
+    <value> %1 %2&gt;</value>
+  </data>
+  <data name="multiply" xml:space="preserve">
+    <value>Multiply</value>
+  </data>
+  <data name="hfwfl.ProjectWiseIsBentleySystemsFlagShipCollaborativeServer" xml:space="preserve">
+    <value>ProjectWise is Bentley Systems' flagship collaboration server, enabling high-performance multisite collaboration among AEC project teams performing distributed engineering. Contact Bentley Systems for more information on this feature.</value>
+  </data>
+  <data name="channelphysical" xml:space="preserve">
+    <value>Channel - Physical</value>
+  </data>
+  <data name="buttonOpenProjectWiseProject" xml:space="preserve">
+    <value>Open from ProjectWise</value>
+  </data>
+  <data name="modelbuilder" xml:space="preserve">
+    <value>Model Builder</value>
+  </data>
+  <data name="ViewUserNotifications" xml:space="preserve">
+    <value>&amp;User Notifications</value>
+  </data>
+  <data name="set" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="ViewAnimationControl" xml:space="preserve">
+    <value>Animation Contr&amp;ol</value>
+  </data>
+  <data name="basecriticalityalternative" xml:space="preserve">
+    <value>Base Criticality Alternative</value>
+  </data>
+  <data name="invalidSQLMessage" xml:space="preserve">
+    <value>There was an error with the expression.%n%n</value>
+  </data>
+  <data name="hfwff.warning.MessageNoteAApplicationDescriptionFormatDatabaseIsRequired" xml:space="preserve">
+    <value>%1 %nNote: Be sure to provide a database format that is valid for %2.</value>
+  </data>
+  <data name="supportelementBrowseEngineeringLibrary" xml:space="preserve">
+    <value>Browse Engineering Library</value>
+  </data>
+  <data name="hfwff.warning.UnableToOpenInternetBrowser" xml:space="preserve">
+    <value>Unable to open internet browser.</value>
+  </data>
+  <data name="hfwff.QueryBuilderFormUnitLabel" xml:space="preserve">
+    <value>: %1</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="ToolsSynchronizeDrawing" xml:space="preserve">
+    <value>&amp;Synchronize Drawing...</value>
+  </data>
+  <data name="saveAs" xml:space="preserve">
+    <value>Save As</value>
+  </data>
+  <data name="scenarioanimationnoloop" xml:space="preserve">
+    <value>No Loop</value>
+  </data>
+  <data name="chartoptions" xml:space="preserve">
+    <value>Chart Options</value>
+  </data>
+  <data name="tooltipCurrentProject" xml:space="preserve">
+    <value>Make Current</value>
+  </data>
+  <data name="hmiRemove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="hfwfc.menu.Edit" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="menuitemNewScatterPlot" xml:space="preserve">
+    <value>Scatter Plot Graph</value>
+  </data>
+  <data name="HelpIndex" xml:space="preserve">
+    <value>Index...</value>
+  </data>
+  <data name="hfwff.AddToGraph" xml:space="preserve">
+    <value>Add to:</value>
+  </data>
+  <data name="newscenarioTooltip" xml:space="preserve">
+    <value>New Scenario</value>
+  </data>
+  <data name="hfwfc.FlexTableManagerUserControlFormTitleElementTypeFormTitle" xml:space="preserve">
+    <value>%1 FlexTable: %2</value>
+  </data>
+  <data name="EditSelect" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="scenarioanimationloopingoptions" xml:space="preserve">
+    <value>Looping Options</value>
+  </data>
+  <data name="EditCopy" xml:space="preserve">
+    <value>&amp;Copy</value>
+  </data>
+  <data name="hfwff.ProgressIndicatorReady" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="FileSave" xml:space="preserve">
+    <value>&amp;Save</value>
+  </data>
+  <data name="hmiLibraryFilesExtensionDescription" xml:space="preserve">
+    <value>Engineering Library File</value>
+  </data>
+  <data name="CloseOpenFlexTablesUDX" xml:space="preserve">
+    <value>You must close all FlexTables before using the User Data Extensions feature.%nDo you want to close them now?</value>
+  </data>
+  <data name="newscenariomenuTooltip" xml:space="preserve">
+    <value>New Scenario Menu</value>
+  </data>
+  <data name="hfwfl.LearnMoreAboutProjectWiseWithEllipsis" xml:space="preserve">
+    <value>Learn More About ProjectWise%1</value>
+  </data>
+  <data name="ComputeStatusTooltip" xml:space="preserve">
+    <value>Need to compute</value>
+  </data>
+  <data name="conduitphysical" xml:space="preserve">
+    <value>Conduit - Physical</value>
+  </data>
+  <data name="QueryDomainElementTypeSelectorForm" xml:space="preserve">
+    <value>Queries - Select Element Type</value>
+  </data>
+  <data name="hfwff.StatusManagerFormSaveStatisticsFileName" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="saveFile" xml:space="preserve">
+    <value>Save File</value>
+  </data>
+  <data name="hfwfa.error.ApplicationDescriptionInternalError" xml:space="preserve">
+    <value>%1 Internal Error</value>
+  </data>
+  <data name="elementsreturned" xml:space="preserve">
+    <value>elements returned</value>
+  </data>
+  <data name="energycostalternative" xml:space="preserve">
+    <value>Energy Cost Alternative</value>
+  </data>
+  <data name="hfwff.StatusManagerFormTextFile" xml:space="preserve">
+    <value>Text File</value>
+  </data>
+  <data name="sm_report" xml:space="preserve">
+    <value>&amp;Report</value>
+  </data>
+  <data name="ReportMenu" xml:space="preserve">
+    <value>&amp;Report</value>
+  </data>
+  <data name="toolBarButtonApply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="HelpContents" xml:space="preserve">
+    <value>Contents...</value>
+  </data>
+  <data name="hfwf.checkBoxValidateOnOK" xml:space="preserve">
+    <value>Validate on OK</value>
+  </data>
+  <data name="valueCannotBeBlank" xml:space="preserve">
+    <value>The value cannot be blank</value>
+  </data>
+  <data name="willBeDeletedPermanently" xml:space="preserve">
+    <value>%1 will be deleted permanently.</value>
+  </data>
+  <data name="frameworkDivideByZeroNotAllowed" xml:space="preserve">
+    <value>Divide by zero is not allowed.</value>
+  </data>
+  <data name="batchrun_info" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="rootRainfallCurve" xml:space="preserve">
+    <value>Rainfall Curve Libraries</value>
+  </data>
+  <data name="frameworkNoPredefinedTableAvailable" xml:space="preserve">
+    <value>No predefined table available.</value>
+  </data>
+  <data name="editExternalReferenceFormTitle" xml:space="preserve">
+    <value>Edit Hyperlink</value>
+  </data>
+  <data name="GraphElement" xml:space="preserve">
+    <value>Graph</value>
+  </data>
+  <data name="Pond" xml:space="preserve">
+    <value>Pond</value>
+  </data>
+  <data name="FileMenu" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="toolTipRemoveProject" xml:space="preserve">
+    <value>Remove Hydraulic Model</value>
+  </data>
+  <data name="CollectionWithCountParameter" xml:space="preserve">
+    <value>&lt;Collection: %1 items&gt;</value>
+  </data>
+  <data name="FileProperties" xml:space="preserve">
+    <value>Hydraulic Model P&amp;roperties...</value>
+  </data>
+  <data name="divide" xml:space="preserve">
+    <value>Divide</value>
+  </data>
+  <data name="volume" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="synchronizeToLibrary" xml:space="preserve">
+    <value>Synchronize to Library</value>
+  </data>
+  <data name="ViewStatusPane" xml:space="preserve">
+    <value>Status Pane</value>
+  </data>
+  <data name="fireflowalternative" xml:space="preserve">
+    <value>Fire Flow Alternative</value>
+  </data>
+  <data name="helpupdates" xml:space="preserve">
+    <value>C&amp;heck for Updates...</value>
+  </data>
+  <data name="tooltipDetails" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="HelpHowDoI" xml:space="preserve">
+    <value>How Do I</value>
+  </data>
+  <data name="linktopology" xml:space="preserve">
+    <value>Link - Topology</value>
+  </data>
+  <data name="tooltipHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="addnewproject" xml:space="preserve">
+    <value>Add New Hydraulic Model...</value>
+  </data>
+  <data name="pondoutletnodephysical" xml:space="preserve">
+    <value>Pond - Outlet Node Physical</value>
+  </data>
+  <data name="progressfilenew" xml:space="preserve">
+    <value>Creating new hydraulic model...</value>
+  </data>
+  <data name="minorlossproperties" xml:space="preserve">
+    <value>Minor Loss Properties</value>
+  </data>
+  <data name="FileExportSwmm" xml:space="preserve">
+    <value>SWMM v&amp;5...</value>
+  </data>
+  <data name="helpservicescivilquizsite" xml:space="preserve">
+    <value>CivilQuiz.com</value>
+  </data>
+  <data name="basepressuredependentdemandalternative" xml:space="preserve">
+    <value>Base Pressure Dependent Demand Alternative</value>
+  </data>
+  <data name="FileSaveAs" xml:space="preserve">
+    <value>Save &amp;As...</value>
+  </data>
+  <data name="QueryBuilderSuccessMessage" xml:space="preserve">
+    <value>Query Successful</value>
+  </data>
+  <data name="toolBarButtonRefresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="hfwff.StatusManagerFormSaveReportFileName" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="QueriesSelectQuery" xml:space="preserve">
+    <value>Queries - Select a Query</value>
+  </data>
+  <data name="hfwff.Statistics" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="scenarioanimationoptions" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="zoomtotooltip" xml:space="preserve">
+    <value>Zoom To</value>
+  </data>
+  <data name="selectElementsFromDrawingPrompt" xml:space="preserve">
+    <value>Click in the drawing area to select elements.</value>
+  </data>
+  <data name="batchrun_clearselection" xml:space="preserve">
+    <value>Clear Selection</value>
+  </data>
+  <data name="hfwff.save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="ViewAutoRefresh" xml:space="preserve">
+    <value>&amp;Auto-Refresh</value>
+  </data>
+  <data name="hfwfc.menu.Rename" xml:space="preserve">
+    <value>&amp;Rename</value>
+  </data>
+  <data name="materiallibraries" xml:space="preserve">
+    <value>Material Libraries</value>
+  </data>
+  <data name="QueryBuilderError" xml:space="preserve">
+    <value>Query Syntax Error</value>
+  </data>
+  <data name="hfwff.Launch" xml:space="preserve">
+    <value>&amp;Launch</value>
+  </data>
+  <data name="hfwff.SelectQuery" xml:space="preserve">
+    <value>Please select a query before continuing.</value>
+  </data>
+  <data name="usernotificationsExportFailed" xml:space="preserve">
+    <value>Failed to export the user notifications to the file %1.</value>
+  </data>
+  <data name="QueryBuilderForm" xml:space="preserve">
+    <value>%1 Builder</value>
+  </data>
+  <data name="DeleteConfirmationPrompt" xml:space="preserve">
+    <value>Are you sure you want to permanently delete the selected item(s)?</value>
+  </data>
+  <data name="DeleteUndoConfirmationPrompt" xml:space="preserve">
+    <value>Are you sure you want to delete the selected item(s)?</value>
+  </data>
+  <data name="Prompt_DeleteConfirmationPrompt_Text" xml:space="preserve">
+    <value>Confirmed Delete Prompt</value>
+  </data>
+  <data name="hfwfc.GraphRenamedElementText" xml:space="preserve">
+    <value>Graph: %1</value>
+  </data>
+  <data name="EditClearSelection" xml:space="preserve">
+    <value>&amp;Clear Selection</value>
+  </data>
+  <data name="watershedhydrologic" xml:space="preserve">
+    <value>Watershed - Hydrologic</value>
+  </data>
+  <data name="HelpMenu" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="criticalityalternative" xml:space="preserve">
+    <value>Criticality Alternative</value>
+  </data>
+  <data name="ToolsElementLabeling" xml:space="preserve">
+    <value>Element Labeling</value>
+  </data>
+  <data name="HelpServicesHaestadcom" xml:space="preserve">
+    <value>&amp;Haestad.com</value>
+  </data>
+  <data name="ViewToolbarsZoom" xml:space="preserve">
+    <value>&amp;Zoom</value>
+  </data>
+  <data name="ViewZoomIn" xml:space="preserve">
+    <value>Zoom &amp;In</value>
+  </data>
+  <data name="usernotificationDetails" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="gravitynodephysical" xml:space="preserve">
+    <value>Gravity Node - Physical</value>
+  </data>
+  <data name="externalReferencesFormTitle" xml:space="preserve">
+    <value>Hyperlinks</value>
+  </data>
+  <data name="propertyGridExtraEdit" xml:space="preserve">
+    <value>&lt;Edit...&gt;</value>
+  </data>
+  <data name="projectManagerRemoveConfirmationMessage" xml:space="preserve">
+    <value>Removing a hydraulic model permanently breaks the connection to the associated Geodatabase. This action is not undoable. %n %n Are you sure you want to remove this hydraulic model?</value>
+  </data>
+  <data name="hfwff.ApplicationProjectFile" xml:space="preserve">
+    <value>%1 Hydraulic Model File</value>
+  </data>
+  <data name="englibNewFolderLabel" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="ViewToolbarsStandard" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="ToolsProfiles" xml:space="preserve">
+    <value>P&amp;rofiles</value>
+  </data>
+  <data name="rainfallrunoffalternative" xml:space="preserve">
+    <value>Rainfall Runoff Alternative</value>
+  </data>
+  <data name="hfwff.StatusManagerFormRichTextBoxUpdateOperationTerminatedByUser" xml:space="preserve">
+    <value>Operation terminated by user.%n%n</value>
+  </data>
+  <data name="ViewToolbarsEdit" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="ReportProjectInventory" xml:space="preserve">
+    <value>Hydraulic Model &amp;Inventory</value>
+  </data>
+  <data name="activetopologyalternative" xml:space="preserve">
+    <value>Active Topology</value>
+  </data>
+  <data name="ViewGraphs" xml:space="preserve">
+    <value>&amp;Graphs</value>
+  </data>
+  <data name="tooltipDone" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="HelpTutorials" xml:space="preserve">
+    <value>&amp;Quick Start Lessons</value>
+  </data>
+  <data name="ReportScenarioSummary" xml:space="preserve">
+    <value>&amp;Scenario Summary</value>
+  </data>
+  <data name="buildnewmodel" xml:space="preserve">
+    <value>Build New Model</value>
+  </data>
+  <data name="tooltipOpenExistingProject" xml:space="preserve">
+    <value>Open Hydraulic Model</value>
+  </data>
+  <data name="hfwff.queryParametersFormTitle" xml:space="preserve">
+    <value>Query Parameters</value>
+  </data>
+  <data name="hfwff.queryParametersForm.buttonOk" xml:space="preserve">
+    <value>&amp;OK</value>
+  </data>
+  <data name="hfwff.queryParametersForm.buttonCancel" xml:space="preserve">
+    <value>&amp;Cancel</value>
+  </data>
+  <data name="hfwff.queryParametersForm.buttonHelp" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="ExportToLibraryOperationEditorForm" xml:space="preserve">
+    <value>Select Engineering Library</value>
+  </data>
+  <data name="buttonSelect" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="EngineeringLibraryFilter" xml:space="preserve">
+    <value>Engineering Library (*.xml)</value>
+  </data>
+  <data name="EngineeringLibraryExportTitle" xml:space="preserve">
+    <value>Specify new Engineering Library Filename</value>
+  </data>
+  <data name="buttonYes" xml:space="preserve">
+    <value>&amp;Yes</value>
+  </data>
+  <data name="buttonYesToAll" xml:space="preserve">
+    <value>Yes to &amp;All</value>
+  </data>
+  <data name="buttonNo" xml:space="preserve">
+    <value>&amp;No</value>
+  </data>
+  <data name="buttonNoToAll" xml:space="preserve">
+    <value>N&amp;o to All</value>
+  </data>
+  <data name="hfwff.label.WhereClause" xml:space="preserve">
+    <value>WHERE:</value>
+  </data>
+  <data name="ElementRelabelingFormTitle" xml:space="preserve">
+    <value>Element Relabeling</value>
+  </data>
+  <data name="RelabelOperation" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="RelabelRenumber" xml:space="preserve">
+    <value>Renumber</value>
+  </data>
+  <data name="RelabelAppend" xml:space="preserve">
+    <value>Append</value>
+  </data>
+  <data name="RelabelReplace" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="RenumberNext" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="RenumberIncrement" xml:space="preserve">
+    <value>Increment</value>
+  </data>
+  <data name="RenumberPrefix" xml:space="preserve">
+    <value>Prefix</value>
+  </data>
+  <data name="RenumberDigits" xml:space="preserve">
+    <value>Digits</value>
+  </data>
+  <data name="RenumberSuffix" xml:space="preserve">
+    <value>Suffix</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="buttonApply" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="ReplaceFind" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="ReplaceReplaceWith" xml:space="preserve">
+    <value>Replace With</value>
+  </data>
+  <data name="ReplaceMatchCase" xml:space="preserve">
+    <value>Match Case</value>
+  </data>
+  <data name="AppendPrefix" xml:space="preserve">
+    <value>Prefix</value>
+  </data>
+  <data name="AppendSuffix" xml:space="preserve">
+    <value>Suffix</value>
+  </data>
+  <data name="BatchScenarioQuestion" xml:space="preserve">
+    <value>Run %1 scenarios as a batch?</value>
+  </data>
+  <data name="BatchScenarioTitle" xml:space="preserve">
+    <value>Please Confirm</value>
+  </data>
+  <data name="ValueAtleastOne" xml:space="preserve">
+    <value>%1 value should be an integer &gt; 0</value>
+  </data>
+  <data name="ValueAtleastZero" xml:space="preserve">
+    <value>%1 value  should be an integer &gt;= 0</value>
+  </data>
+  <data name="ShouldbeNumber" xml:space="preserve">
+    <value>%1 value should be a number</value>
+  </data>
+  <data name="hfwff.NoFilterActive" xml:space="preserve">
+    <value>&lt;no filter active&gt;</value>
+  </data>
+  <data name="errorElementRelabelingFields" xml:space="preserve">
+    <value>Errors in fields. Cannot relabel. Change values and try again.</value>
+  </data>
+  <data name="errorFindEmpty" xml:space="preserve">
+    <value>The Find field cannot be left blank.</value>
+  </data>
+  <data name="ScenarioChangeFeedback" xml:space="preserve">
+    <value>Changing Current Scenario</value>
+  </data>
+  <data name="elementRelabeling" xml:space="preserve">
+    <value>Relabeling elements...</value>
+  </data>
+  <data name="hfwff.SaveNewerSchemaPrompt" xml:space="preserve">
+    <value>Files saved with this version of %1 cannot be read by older versions.%n%nWould you like to overwrite "%2"?</value>
+  </data>
+  <data name="hfwff.SaveNewerSchemaPromptTitle" xml:space="preserve">
+    <value>%1 Hydraulic Model Save</value>
+  </data>
+  <data name="hfwf.NotAuthorizedToSave" xml:space="preserve">
+    <value>Unable to save %1.  (You may not have access to write to the specified location, or the file may be read-only).  Try again with a different file name.</value>
+  </data>
+  <data name="buttonCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="hfwf.StoredResponseViewerKeyColumnName" xml:space="preserve">
+    <value>Prompt</value>
+  </data>
+  <data name="hfwf.StoredResponseViewerDefaultResponse" xml:space="preserve">
+    <value>Default Response</value>
+  </data>
+  <data name="hfwf.NoStoredPromptResponsesAvailableToView" xml:space="preserve">
+    <value>There are currently no prompts that are using a default response.</value>
+  </data>
+  <data name="HaestadDialogResult_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="HaestadDialogResult_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="HaestadDialogResult_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="HaestadDialogResult_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ToolsUpdateDatabaseCaches" xml:space="preserve">
+    <value>&amp;Update Database Cache</value>
+  </data>
+  <data name="buttonItemToolsUpdateDatabaseCaches" xml:space="preserve">
+    <value>&amp;Update Database Cache</value>
+  </data>
+  <data name="hfwf.UpdateDatabaseCacheAnimationText" xml:space="preserve">
+    <value>Updating Database Cache</value>
+  </data>
+  <data name="toolBarButtonExpandAll" xml:space="preserve">
+    <value>Expand All</value>
+  </data>
+  <data name="toolBarButonCollapseAll" xml:space="preserve">
+    <value>Collapse All</value>
+  </data>
+  <data name="ListViewModelSort" xml:space="preserve">
+    <value>Sorting...</value>
+  </data>
+  <data name="StatisticsEditorForm" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="tooltipSelect" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="tooltipSelectByPolygon" xml:space="preserve">
+    <value>Select by Polygon</value>
+  </data>
+  <data name="tooltipInvertSelection" xml:space="preserve">
+    <value>Invert Selection</value>
+  </data>
+  <data name="tooltipQuery" xml:space="preserve">
+    <value>Query</value>
+  </data>
+  <data name="tooltipClearSelection" xml:space="preserve">
+    <value>Clear Selection</value>
+  </data>
+  <data name="tooltipFind" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="removeFromSelectionSet" xml:space="preserve">
+    <value>Remove from Selection Set</value>
+  </data>
+  <data name="addToSelection" xml:space="preserve">
+    <value>Add to Selection</value>
+  </data>
+  <data name="removeFromSelection" xml:space="preserve">
+    <value>Remove from Selection</value>
+  </data>
+  <data name="hfwff.removeFromGraph" xml:space="preserve">
+    <value>Remove from:</value>
+  </data>
+  <data name="selectFromDrawingTitleWithParam" xml:space="preserve">
+    <value>Select - %1</value>
+  </data>
+  <data name="tooltipAddToGraph" xml:space="preserve">
+    <value>Add to Graph</value>
+  </data>
+  <data name="Selection_SelectInDrawing" xml:space="preserve">
+    <value>Select in Drawing</value>
+  </data>
+  <data name="toolBarButtonSelectInDrawing" xml:space="preserve">
+    <value>Select in Drawing</value>
+  </data>
+  <data name="True" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="False" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Please wait...</value>
+  </data>
+  <data name="BrowseTooltip" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="ViewTooltip" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="DuplicateMenuItem" xml:space="preserve">
+    <value>Duplicate</value>
+  </data>
+  <data name="MakeActiveMenuItem" xml:space="preserve">
+    <value>Make Active</value>
+  </data>
+  <data name="DuplicateAsProjectFlextable" xml:space="preserve">
+    <value>as Hydraulic Model FlexTable</value>
+  </data>
+  <data name="DuplicateAsSharedFlexTable" xml:space="preserve">
+    <value>as Shared FlexTable</value>
+  </data>
+  <data name="DuplicateAsProjectWorkspace" xml:space="preserve">
+    <value>as Hydraulic Model Customization</value>
+  </data>
+  <data name="DuplicateAsSharedWorkspace" xml:space="preserve">
+    <value>as Shared Customization</value>
+  </data>
+  <data name="FlexTableEditGroupForm" xml:space="preserve">
+    <value>Edit Group Selection</value>
+  </data>
+  <data name="ViewToolbarsComponents" xml:space="preserve">
+    <value>Co&amp;mponents</value>
+  </data>
+  <data name="ViewToolbarsReports" xml:space="preserve">
+    <value>&amp;Reports</value>
+  </data>
+  <data name="UnavailableSource" xml:space="preserve">
+    <value>%1 &lt;Unavailable&gt;</value>
+  </data>
+  <data name="hfwff.ProgressWithEllipsis" xml:space="preserve">
+    <value>Progress...</value>
+  </data>
+  <data name="hfwff.TopicNotFound" xml:space="preserve">
+    <value>Topic not found: %1</value>
+  </data>
+  <data name="hfwff.warning.SchemaMustBeUpdatedBeforeAttemptingCompact" xml:space="preserve">
+    <value>Hydraulic models must be saved before attempting compact.</value>
+  </data>
+  <data name="UserNotificationListViewEditorModel" xml:space="preserve">
+    <value>User Notifications</value>
+  </data>
+  <data name="Library_ReadOnlySource" xml:space="preserve">
+    <value>%1 (Read-Only)</value>
+  </data>
+  <data name="newCalculationOptions" xml:space="preserve">
+    <value>New Calculation Options</value>
+  </data>
+  <data name="enterCalculationOptionsName" xml:space="preserve">
+    <value>Enter New Calculation Options Name</value>
+  </data>
+  <data name="createCalculationOptions" xml:space="preserve">
+    <value>Create New Calculation Options</value>
+  </data>
+  <data name="headlossalternative" xml:space="preserve">
+    <value>Headloss Alternative</value>
+  </data>
+  <data name="designalternative" xml:space="preserve">
+    <value>Design Alternative</value>
+  </data>
+  <data name="systemflowsalternative" xml:space="preserve">
+    <value>System Flows Alternative</value>
+  </data>
+  <data name="hfwfc.menu.Duplicate" xml:space="preserve">
+    <value>Duplicate</value>
+  </data>
+  <data name="hfwfc.menu.Report" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="WorkspacePropertyGridCustomizationForm" xml:space="preserve">
+    <value>Customization (%1)</value>
+  </data>
+  <data name="removeCustomizationAndCloseDialog" xml:space="preserve">
+    <value>Removing the customization will close the customization dialog and refresh the property grid.%nDo you wish to continue?</value>
+  </data>
+  <data name="continueCustomizationRemoval" xml:space="preserve">
+    <value>Continue Customization Removal?</value>
+  </data>
+  <data name="calcOptionsDeleteNotAllowed" xml:space="preserve">
+    <value>This calculation option can not be deleted.  The selected calculation option is currently referenced by a scenario.</value>
+  </data>
+  <data name="AvailableItems" xml:space="preserve">
+    <value>Available Items:  (%1)</value>
+  </data>
+  <data name="SelectedItems" xml:space="preserve">
+    <value>Selected Items:  (%1)</value>
+  </data>
+  <data name="ElementResultsEditor" xml:space="preserve">
+    <value>Element Results</value>
+  </data>
+  <data name="ElementDetailsEditor" xml:space="preserve">
+    <value>Element Details</value>
+  </data>
+  <data name="hmiAddExistingProjectWiseLibrary" xml:space="preserve">
+    <value>ProjectWise Add Existing Library...</value>
+  </data>
+  <data name="hmiSaveAsProjectWise" xml:space="preserve">
+    <value>ProjectWise Save As...</value>
+  </data>
+  <data name="hmiProjectWiseCheckOut" xml:space="preserve">
+    <value>ProjectWise Check Out...</value>
+  </data>
+  <data name="hfwfc.libraryNotEditable" xml:space="preserve">
+    <value>The library is currently read only. Check that it is editable and try again.</value>
+  </data>
+  <data name="deleteSelectedItems" xml:space="preserve">
+    <value>the selected items</value>
+  </data>
+  <data name="hmiProjectWiseOpen" xml:space="preserve">
+    <value>Projectwise Open...</value>
+  </data>
+  <data name="hmiUnableToOpenProjectWiseLibrary" xml:space="preserve">
+    <value>Unable to open the selected ProjectWise Engineering Library. The data source may not be available.</value>
+  </data>
+  <data name="pumpdefinitionlibrary" xml:space="preserve">
+    <value>Pump Definition</value>
+  </data>
+  <data name="batchRunButtonBatch" xml:space="preserve">
+    <value>&amp;Batch</value>
+  </data>
+  <data name="batchRunButtonClose" xml:space="preserve">
+    <value>&amp;Close</value>
+  </data>
+  <data name="batchRunButtonHelp" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="batchRunButtonSelect" xml:space="preserve">
+    <value>&amp;Select &gt;</value>
+  </data>
+  <data name="legalAndPatentNoticeTitle" xml:space="preserve">
+    <value>Legal and Patent Notices</value>
+  </data>
+  <data name="fairUseNotice" xml:space="preserve">
+    <value>Including software, file formats, and audiovisual displays; may only be used pursuant to applicable software license agreement; contains confidential and proprietary information of Bentley Systems, Incorporated and/or third parties which is protected by copyright and trade secret law and may not be provided or otherwise made available without proper authorization.</value>
+  </data>
+  <data name="trademarkNotice" xml:space="preserve">
+    <value>%n%nTRADEMARK NOTICE%nBentley, the "B" Bentley logo, and %1 are all registered or non-registered trademarks of Bentley Systems, Incorporated. All other marks are the property of their respective owners.</value>
+  </data>
+  <data name="patentNotice" xml:space="preserve">
+    <value>PATENT NOTICE%nThis product is protected by one or more of the following United States patents: %1 and other US and International patents pending.</value>
+  </data>
+  <data name="legalNotice" xml:space="preserve">
+    <value>RESTRICTED RIGHTS LEGENDS%nIf this software is acquired for or on behalf of the United States of America, its agencies and/or instrumentalities ("U.S. Government"), it is provided with restricted rights. This software and accompanying documentation are "commercial computer software" and "commercial computer software documentation," respectively, pursuant to 48 C.F.R. 12.212 and 227.7202, and "restricted computer software" pursuant to 48 C.F.R. 52.227-19(a), as applicable. Use, modification, reproduction, release, performance, display or disclosure of this software and accompanying documentation by the U.S. Government are subject to restrictions as set forth in this Agreement and pursuant to 48 C.F.R. 12.212, 52.227-19, 227.7202, and 1852.227-86, as applicable. Contractor/Manufacturer is Bentley Systems, Incorporated, 685 Stockton Drive, Exton, PA 19341-0678.%n%nUnpublished - rights reserved under the Copyright Laws of the United States and International treaties.</value>
+  </data>
+  <data name="acknowledgements" xml:space="preserve">
+    <value>ACKNOWLEDGEMENTS%n%1</value>
+  </data>
+  <data name="hfwff.PWOpenButNotAMasterDocument" xml:space="preserve">
+    <value>The selected file is not the master document of a file set. If it is a %1 model, it should be saved to ProjectWise from %1 before it can be opened. If you are trying to import a .mdb file or an older model, try using the Import menu items.</value>
+  </data>
+  <data name="toolBarButtonResetToFactoryDefaults" xml:space="preserve">
+    <value>Reset to Factory Defaults</value>
+  </data>
+  <data name="menuItemResetToFactoryDefaults" xml:space="preserve">
+    <value>Reset to Factory Defaults...</value>
+  </data>
+  <data name="ResetDefaults_Title" xml:space="preserve">
+    <value>Reset FlexTable to Defaults</value>
+  </data>
+  <data name="ResetDefaults_Question" xml:space="preserve">
+    <value>Are you sure you want to reset this FlexTable to Factory Defaults?</value>
+  </data>
+  <data name="FlexTableOpenCannotReset" xml:space="preserve">
+    <value>You currently have this FlexTable open.  Close the FlexTable and then reset it to the factory defaults.</value>
+  </data>
+  <data name="toolBarButtonChange" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="CommaDelimitedFilterLabel" xml:space="preserve">
+    <value>Comma Delimited File</value>
+  </data>
+  <data name="EngLibraryFileAlreadyInUse" xml:space="preserve">
+    <value>The engineering library file '%1' was created for a different engineering library type and may already be in use.%nSelect a different engineering library file.</value>
+  </data>
+  <data name="buttonOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="toolBarButtonScenarioComparison" xml:space="preserve">
+    <value>Scenario Comparison</value>
+  </data>
+  <data name="HydraulicsAndHydrologyAnalysis" xml:space="preserve">
+    <value>Hydraulic and Hydrologic Analysis</value>
+  </data>
+  <data name="PWIncorrectModelFile" xml:space="preserve">
+    <value>The file selected is not a .%1 file. If you are trying to import a .mdb file or an older model, try using the ProjectWise Import menu item.</value>
+  </data>
+  <data name="PWIncorrectExplicitFile" xml:space="preserve">
+    <value>The file selected must be a .%1 file.</value>
+  </data>
+  <data name="tooltipImport" xml:space="preserve">
+    <value>Import...</value>
+  </data>
+  <data name="CannotSaveDueToSecurity" xml:space="preserve">
+    <value>%1 cannot be saved to %2 due to security restrictions.</value>
+  </data>
+  <data name="ValidateMenuItem" xml:space="preserve">
+    <value>Validate</value>
+  </data>
+  <data name="ComputeMenuItem" xml:space="preserve">
+    <value>Compute</value>
+  </data>
+  <data name="ComputeAllMenuItem" xml:space="preserve">
+    <value>Compute All</value>
+  </data>
+  <data name="colorARGBFormat" xml:space="preserve">
+    <value>Color [A=%1, R=%2, G=%3, B=%4]</value>
+  </data>
+  <data name="hfwff.HiddenSubSchemasInfoPrompt" xml:space="preserve">
+    <value>The current file contains one or more data-schemas that were not loaded because they require software extensions not available in this application. Data-schemas not loaded:%n%1</value>
+  </data>
+  <data name="DateTimeNumericFormatterEditorForm" xml:space="preserve">
+    <value>Set Field Options - %1</value>
+  </data>
+  <data name="FlexTableManagerUserControl.FormTitle.MultipleElementsFlexTable" xml:space="preserve">
+    <value>Network Elements</value>
+  </data>
+  <data name="EngLibraries_NoCheckedItems" xml:space="preserve">
+    <value>There are no checked items to import.  You must check at least one item to continue.</value>
+  </data>
+  <data name="createSelectionForMessageId" xml:space="preserve">
+    <value>Select All Elements with Message Id %1 in Drawing</value>
+  </data>
+  <data name="toolTipCreateSelection" xml:space="preserve">
+    <value>Select In Drawing</value>
+  </data>
+  <data name="FlexTableEditGroupForm.statusBarPanelElementType.Text.NetworkElements" xml:space="preserve">
+    <value>Network Elements</value>
+  </data>
+  <data name="PWEngineeringLibraryUpdateFailed" xml:space="preserve">
+    <value>ProjectWise Engineering Library Update</value>
+  </data>
+  <data name="confirmMultipleDeletePermanently" xml:space="preserve">
+    <value>The selected items will be deleted permanently.%n%nDelete selected items?</value>
+  </data>
+  <data name="OpenUnfilteredFlexTablePrompt" xml:space="preserve">
+    <value>There are no elements of this type selected.  Would you like to open the unfiltered table?</value>
+  </data>
+  <data name="OpenUnfilteredFlexTableCaption" xml:space="preserve">
+    <value>Open Unfiltered FlexTable</value>
+  </data>
+  <data name="infiltrationandinflowalternative" xml:space="preserve">
+    <value>Infiltration and Inflow Alternative</value>
+  </data>
+  <data name="WebBrowerReportViewer_OpenXSLFile_Filter" xml:space="preserve">
+    <value>XSL Files</value>
+  </data>
+  <data name="WebBrowerReportViewer_OpenXSLFile_Title" xml:space="preserve">
+    <value>Open XSL File</value>
+  </data>
+  <data name="WebBrowserReportViewer_SaveHtmlFile_Filter" xml:space="preserve">
+    <value>HTML Files (*.html)|*.html</value>
+  </data>
+  <data name="WebBrowserReportViewer_SaveHtmlFile_Title" xml:space="preserve">
+    <value>Save HTML File</value>
+  </data>
+  <data name="phone" xml:space="preserve">
+    <value>Phone: </value>
+  </data>
+  <data name="fax" xml:space="preserve">
+    <value>Fax: </value>
+  </data>
+  <data name="tooltipViewAssociationsScenarioMode" xml:space="preserve">
+    <value>View Associations Scenario Mode</value>
+  </data>
+  <data name="welcomeText" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="tooltipExport" xml:space="preserve">
+    <value>Export...</value>
+  </data>
+  <data name="groupBoxProductFilter" xml:space="preserve">
+    <value>Filtering</value>
+  </data>
+  <data name="chooseUnit" xml:space="preserve">
+    <value>Choose Unit</value>
+  </data>
+  <data name="EngineeringLibraryExplorer_FileDoesnotExists" xml:space="preserve">
+    <value>%1 does not exist on ProjectWise.</value>
+  </data>
+  <data name="tooltipClearSearch" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="tooltipSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="arrangeAlphabetically" xml:space="preserve">
+    <value>Arrange Alphabetically</value>
+  </data>
+  <data name="arrangeByCategory" xml:space="preserve">
+    <value>Arrange By Category</value>
+  </data>
+  <data name="checkBoxFilterFieldsByActiveSolverText" xml:space="preserve">
+    <value>&amp;Only list fields that apply to the active solver</value>
+  </data>
+  <data name="ProjectOptionUserControl.menuItemRise.Text" xml:space="preserve">
+    <value>&amp;Rise</value>
+  </data>
+  <data name="ProjectOptionUserControl.menuItemSpan.Text" xml:space="preserve">
+    <value>&amp;Span</value>
+  </data>
+  <data name="ProjectOptionUserControl.menuItemDiameterUnit.Text" xml:space="preserve">
+    <value>Diameter &amp;Unit</value>
+  </data>
+  <data name="ProjectOptionUserControl.menuItemShape.Text" xml:space="preserve">
+    <value>&amp;Shape</value>
+  </data>
+  <data name="ProjectOptionUserControl.menuItemLeftSideSlope.Text" xml:space="preserve">
+    <value>&amp;Left Side Slope</value>
+  </data>
+  <data name="ProjectOptionUserControl.menuItemRightSideSlope.Text" xml:space="preserve">
+    <value>&amp;Right Side Slope</value>
+  </data>
+  <data name="ProjectOptionUserControl.menuItemBaseWidth.Text" xml:space="preserve">
+    <value>&amp;Base Width</value>
+  </data>
+  <data name="ProjectOptionUserControl.menuItemCatalogElementLabel.Text" xml:space="preserve">
+    <value>&amp;Catalog Element Label</value>
+  </data>
+  <data name="ProjectOptionUserControl.menuItemDiameter.Text" xml:space="preserve">
+    <value>&amp;Diameter</value>
+  </data>
+  <data name="ProjectOptionUserControl.menuItemSideSlopeUnit.Text" xml:space="preserve">
+    <value>&amp;Side Slope Unit</value>
+  </data>
+  <data name="ProjectOptionUserControl.menuItemLengthUnit.Text" xml:space="preserve">
+    <value>&amp;Length Unit</value>
+  </data>
+  <data name="ProjectOptionUserControl.menuItemElevationUnit.Text" xml:space="preserve">
+    <value>&amp;Elevation Unit</value>
+  </data>
+  <data name="ProjectOptionUserControl.menuItemMaxDepth.Text" xml:space="preserve">
+    <value>Max &amp;Depth</value>
+  </data>
+  <data name="ProjectOptionUserControl.menuItemMaxWidth.Text" xml:space="preserve">
+    <value>Max &amp;Width</value>
+  </data>
+  <data name="ProjectOptionUserControl.menuItemBottomRadius.Text" xml:space="preserve">
+    <value>&amp;Bottom Radius</value>
+  </data>
+  <data name="ProjectOptionUserControl.menuItemTriangleHeight.Text" xml:space="preserve">
+    <value>&amp;Triangle Height</value>
+  </data>
+  <data name="ProjectOptionUserControl.menuItemExponent.Text" xml:space="preserve">
+    <value>&amp;Exponent</value>
+  </data>
+  <data name="ProjectOptionUserControl.menuItemStationUnit.Text" xml:space="preserve">
+    <value>&amp;Station Unit</value>
+  </data>
+  <data name="ProjectOptionUserControl.menuItemWidthUnit.Text" xml:space="preserve">
+    <value>&amp;Width Unit</value>
+  </data>
+  <data name="hfwfx.valueRange" xml:space="preserve">
+    <value>Value Range: {0} ~ {1}</value>
+  </data>
+  <data name="sourceNotAvailable" xml:space="preserve">
+    <value>The engineering library source file %1 is not available or you do not have proper access rights.  Unable to synchronize to or from library.</value>
+  </data>
+  <data name="EditField" xml:space="preserve">
+    <value>Edit %1</value>
+  </data>
+  <data name="scadaalternative" xml:space="preserve">
+    <value>SCADA Alternative</value>
+  </data>
+  <data name="hammeralternative" xml:space="preserve">
+    <value>Transient Alternative</value>
+  </data>
+  <data name="flexGridCopy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="flexGridCopyWithHeaders" xml:space="preserve">
+    <value>Copy With Headers</value>
+  </data>
+  <data name="flexGridPaste" xml:space="preserve">
+    <value>Paste</value>
+  </data>
+  <data name="selectColumn" xml:space="preserve">
+    <value>Select Column</value>
+  </data>
+  <data name="ListViewVirtualListSizeInvalidArgument" xml:space="preserve">
+    <value>InvalidArgument=Value of '%1' is not valid for 'VirtualListSize'</value>
+  </data>
+  <data name="removeColumn" xml:space="preserve">
+    <value>Remove Column</value>
+  </data>
+  <data name="addColumn" xml:space="preserve">
+    <value>Add Column</value>
+  </data>
+  <data name="openAllRows" xml:space="preserve">
+    <value>Open on All Rows</value>
+  </data>
+  <data name="freezeColumn" xml:space="preserve">
+    <value>Freeze Column</value>
+  </data>
+  <data name="unfreezeColumns" xml:space="preserve">
+    <value>Unfreeze All Columns</value>
+  </data>
+  <data name="hfwfx.Range" xml:space="preserve">
+    <value>Range: {0} ~ {1}</value>
+  </data>
+  <data name="tablesWereExportedTo" xml:space="preserve">
+    <value>%1 tables were succesfully exported to %2</value>
+  </data>
+  <data name="CONNECTPersonalPortalLinkText" xml:space="preserve">
+    <value>CONNECTION Center</value>
+  </data>
+  <data name="CONNECTSignOut" xml:space="preserve">
+    <value>Sign Out</value>
+  </data>
+  <data name="CONNECTPersonalPortalTooltip" xml:space="preserve">
+    <value>Access your CONNECTION Center</value>
+  </data>
+  <data name="CONNECTSignOutTooltip" xml:space="preserve">
+    <value>Stop accessing Bentley Services</value>
+  </data>
+  <data name="CONNECTSignIn" xml:space="preserve">
+    <value>Sign in</value>
+  </data>
+  <data name="CONNECTSigninTooltip" xml:space="preserve">
+    <value>Access your Bentley Services</value>
+  </data>
+  <data name="CONNECTSignedInTooltip" xml:space="preserve">
+    <value>%1 is Signed-In</value>
+  </data>
+  <data name="selectFromDrawing" xml:space="preserve">
+    <value>Select From Drawing</value>
+  </data>
+  <data name="allSupportedFiles" xml:space="preserve">
+    <value>All Supported Files</value>
+  </data>
+  <data name="toolBarButtonAddMyTables" xml:space="preserve">
+    <value>Add My Tables</value>
+  </data>
+  <data name="duplicateMyTablesNodeError_Title" xml:space="preserve">
+    <value>Duplicate My Tables</value>
+  </data>
+  <data name="duplicateMyTablesNodeError_Message" xml:space="preserve">
+    <value>Item cannot be added as it is already in your My Tables as '%1'.</value>
+  </data>
+  <data name="restrictedNodeError_Title" xml:space="preserve">
+    <value>Duplicate FlexTables</value>
+  </data>
+  <data name="restrictedNodeError_Message" xml:space="preserve">
+    <value>Item cannot be added as it is already in your FlexTables by default.</value>
+  </data>
+  <data name="addingMyTablesError_Title" xml:space="preserve">
+    <value>Adding My Tables</value>
+  </data>
+  <data name="addingMyTablesError_Message" xml:space="preserve">
+    <value>An error has occured while attempting to add the following path to your My Tables: %n%n %1 %n%nPlease check that it exists and try again.</value>
+  </data>
+  <data name="DeleteMyTablesConfirmationPrompt" xml:space="preserve">
+    <value>Are you sure you want to remove My Tables: '%1'?  %n%nWarning: You may lose any local, unsynchronized changes.</value>
+  </data>
+  <data name="SaveAsMyTables" xml:space="preserve">
+    <value>Save As...</value>
+  </data>
+  <data name="SaveAsMyTablesError_Title" xml:space="preserve">
+    <value>Error Saving File</value>
+  </data>
+  <data name="SaveAsMyTablesError_Message" xml:space="preserve">
+    <value>An error has occured while attempting to Save '%1' to '%2'.</value>
+  </data>
+  <data name="SynchronizeFromMyTables" xml:space="preserve">
+    <value>Synchronize From Source FlexTables File</value>
+  </data>
+  <data name="SynchronizeFromMyTables_Title" xml:space="preserve">
+    <value>Synchronize From Source FlexTables File?</value>
+  </data>
+  <data name="SynchronizeFromMyTables_Question" xml:space="preserve">
+    <value>Are you sure you want to synchronize '%1' from the source FlexTables file?  %n%nWarning: You may lose any local, unsynchronized changes.</value>
+  </data>
+  <data name="SynchronizeFromMyTablesError_Title" xml:space="preserve">
+    <value>Error Synchronizing From Source FlexTables File</value>
+  </data>
+  <data name="SynchronizeFromMyTablesError_Message" xml:space="preserve">
+    <value>An error has occured while attempting to synchronize '%1' from the source FlexTables file: %n%n %2 %n%nPlease check that it exists and try again.</value>
+  </data>
+  <data name="CheckoutAndSyncFromMyTables" xml:space="preserve">
+    <value>Check Out (Synchronizes From Source)</value>
+  </data>
+  <data name="CheckoutAndSyncFromMyTables_Title" xml:space="preserve">
+    <value>Check Out And Synchronize From Source?</value>
+  </data>
+  <data name="CheckoutAndSyncFromMyTables_Question" xml:space="preserve">
+    <value>Are you sure you want to check out '%1' from ProjectWise and synchronize '%1' from the source FlexTables file?  %n%nWarning: You may lose any local, unsynchronized changes.</value>
+  </data>
+  <data name="CheckoutMyTablesError_Title" xml:space="preserve">
+    <value>Error Checking Out File</value>
+  </data>
+  <data name="CheckoutMyTablesError_Message" xml:space="preserve">
+    <value>An error has occurred while attempting to check out '%1' from ProjectWise.  Please check that it exists and try again.</value>
+  </data>
+  <data name="CopyOutAndSyncFromMyTables" xml:space="preserve">
+    <value>Copy Out (Synchronizes From Source)</value>
+  </data>
+  <data name="CopyOutAndSyncFromMyTables_Title" xml:space="preserve">
+    <value>Copy Out And Synchronize From Source?</value>
+  </data>
+  <data name="CopyOutAndSyncFromMyTables_Question" xml:space="preserve">
+    <value>Are you sure you want to copy out '%1' from ProjectWise and synchronize '%1' from the source FlexTables file?  %n%nWarning: You may lose any local, unsynchronized changes.</value>
+  </data>
+  <data name="CopyOutMyTablesError_Title" xml:space="preserve">
+    <value>Error Copying Out File</value>
+  </data>
+  <data name="CopyOutMyTablesError_Message" xml:space="preserve">
+    <value>An error has occured while attempting to copy out '%1' from ProjectWise.  Please check that it exists and try again.</value>
+  </data>
+  <data name="FreeAndSyncFromMyTables" xml:space="preserve">
+    <value>Free (Synchronizes From Source)</value>
+  </data>
+  <data name="FreeAndSyncFromMyTables_Title" xml:space="preserve">
+    <value>Free And Synchronize From Source?</value>
+  </data>
+  <data name="FreeAndSyncFromMyTables_Question" xml:space="preserve">
+    <value>Are you sure you want to free '%1' from ProjectWise and synchronize '%1' from the source FlexTables file?  %n%nWarning: You may lose any local, unsynchronized changes.</value>
+  </data>
+  <data name="FreeMyTablesError_Title" xml:space="preserve">
+    <value>Error Freeing File</value>
+  </data>
+  <data name="FreeMyTablesError_Message" xml:space="preserve">
+    <value>An error has occured while attempting to free '%1' from ProjectWise.  Please check that it exists and try again.</value>
+  </data>
+  <data name="SynchronizeToMyTables" xml:space="preserve">
+    <value>Synchronize To Source FlexTables File</value>
+  </data>
+  <data name="SynchronizeToMyTables_Title" xml:space="preserve">
+    <value>Synchronize To Source FlexTables File?</value>
+  </data>
+  <data name="SynchronizeToMyTables_Question" xml:space="preserve">
+    <value>Are you sure you want to synchronize '%1' to the source FlexTables file?</value>
+  </data>
+  <data name="SynchronizeToMyTablesError_Title" xml:space="preserve">
+    <value>Error Synchronizing To Source FlexTables File</value>
+  </data>
+  <data name="SynchronizeToMyTablesError_Message" xml:space="preserve">
+    <value>An error has occured while attempting to synchronize '%1' to the source FlexTables file: %n%n %2 %n%nPlease check that it exists and you have write permission to it and try again.</value>
+  </data>
+  <data name="SynchronizeToMyTablesWarning_Title" xml:space="preserve">
+    <value>Possible Overwrite on Synchronize Warning</value>
+  </data>
+  <data name="SynchronizeToMyTablesWarning_Message" xml:space="preserve">
+    <value>'%1' has been updated since your last synchronize with the source FlexTables file. This action may overwrite changes to the source FlexTables file that have been synchronized by others since then. %n%n%tYour last synchronize: %2 %n%t'%1' last updated: %3  %n%nAre you sure you would like to continue to synchronize '%1' to the source FlexTables file?</value>
+  </data>
+  <data name="SyncToAndCheckinMyTables" xml:space="preserve">
+    <value>Check In (Synchronizes To Source)</value>
+  </data>
+  <data name="SyncToAndCheckinMyTables_Title" xml:space="preserve">
+    <value>Synchronize To Source And Check In?</value>
+  </data>
+  <data name="SyncToAndCheckinMyTables_Question" xml:space="preserve">
+    <value>Are you sure you want to synchronize '%1' to the source FlexTables file and check in '%1' to ProjectWise?</value>
+  </data>
+  <data name="CheckinMyTablesError_Title" xml:space="preserve">
+    <value>Error Checking In File</value>
+  </data>
+  <data name="CheckinMyTablesError_Message" xml:space="preserve">
+    <value>An error has occurred while attempting to check in '%1' to ProjectWise.%n%nSource FlexTables File: %2 %n%nPlease check that it exists, you have write permission to it, and that it is checked out and try again.</value>
+  </data>
+  <data name="SyncToAndCheckinMyTablesWarning_Title" xml:space="preserve">
+    <value>Possible Overwrite On Synchronize To Source And Check In Warning</value>
+  </data>
+  <data name="SyncToAndCheckinMyTablesWarning_Message" xml:space="preserve">
+    <value>'%1' has been updated since your last synchronize with the source FlexTables file. This action may overwrite changes to the source FlexTables file that have been synchronized by others since then. %n%n%tYour last synchronize: %2 %n%t'%1' last updated: %3  %n%nAre you sure you would like to continue to synchronize '%3' to the source FlexTables file and check in '%1' to ProjectWise?</value>
+  </data>
+  <data name="DuplicateAsMyTablesMenuItem" xml:space="preserve">
+    <value>as My Tables</value>
+  </data>
+  <data name="generalMyTablesInfo_Title" xml:space="preserve">
+    <value>Add My Tables Info</value>
+  </data>
+  <data name="generalMyTablesInfo_Message" xml:space="preserve">
+    <value>This action creates a local copy of the FlexTables File XML for local modifications.  When you would like to share changes with others you will have to "Synchronize To..." and others will have to "Synchronize From..." their My FlexTables accordingly.</value>
+  </data>
+  <data name="flexTablesFilesXmlFilter" xml:space="preserve">
+    <value>FlexTables File XML</value>
+  </data>
+  <data name="screenCaptureFormBeginRecordingButton" xml:space="preserve">
+    <value>Record</value>
+  </data>
+  <data name="screenCaptureFormSelectorButton" xml:space="preserve">
+    <value>Select Area</value>
+  </data>
+  <data name="sm_validateScenario" xml:space="preserve">
+    <value>Validate</value>
+  </data>
+  <data name="Filepath" xml:space="preserve">
+    <value>File path</value>
+  </data>
+  <data name="radioButtonAlwaysPrompt" xml:space="preserve">
+    <value>Always prompt to make this association</value>
+  </data>
+  <data name="radioButtonNeverPrompt" xml:space="preserve">
+    <value>Never prompt (I will manually make this association later if desired)</value>
+  </data>
+  <data name="labelAssociateProjectPrompt" xml:space="preserve">
+    <value>Default behavior when creating or opening hydraulic models:</value>
+  </data>
+  <data name="m_CheckBoxDoNotNotifyAgain" xml:space="preserve">
+    <value>&amp;Do not notify me again</value>
+  </data>
+  <data name="buttonLearnRibbonInterface" xml:space="preserve">
+    <value>Learn New Ribbon Interface</value>
+  </data>
+  <data name="couldNotOpenVideo" xml:space="preserve">
+    <value>An error occurred while attempting to open the video.</value>
+  </data>
+  <data name="aviFilesFilter" xml:space="preserve">
+    <value>avi files</value>
+  </data>
+  <data name="couldNotSaveVideo" xml:space="preserve">
+    <value>An error occurred while attempting to save the video.</value>
+  </data>
+  <data name="frameCountError" xml:space="preserve">
+    <value>Frame count should not be 0 when video is loaded</value>
+  </data>
+  <data name="fullScreen" xml:space="preserve">
+    <value>Full Screen</value>
+  </data>
+  <data name="loopAnimation" xml:space="preserve">
+    <value>Loop Animation</value>
+  </data>
+  <data name="playbackRate" xml:space="preserve">
+    <value>Playback Rate:%1x</value>
+  </data>
+  <data name="stopRecording" xml:space="preserve">
+    <value>Stop Recording</value>
+  </data>
+  <data name="FileFilterVideoPlayerFiles" xml:space="preserve">
+    <value>Video files %1</value>
+  </data>
+  <data name="GraphFolderLabel" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="GraphRootNodeLabel" xml:space="preserve">
+    <value>Graphs</value>
+  </data>
+  <data name="GraphFolderNodeLabelPrefix" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="newgraphnamelabel" xml:space="preserve">
+    <value>Graph Name</value>
+  </data>
+  <data name="newgraphlocationlabel" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="addtographmanagertitle" xml:space="preserve">
+    <value>Add to Graph Manager</value>
+  </data>
+  <data name="labelAnalyze" xml:space="preserve">
+    <value>Check Scenario(s) you want to Analyze:</value>
+  </data>
+  <data name="toolStripSplitButtonCheckAll" xml:space="preserve">
+    <value>Check All Valid Scenarios</value>
+  </data>
+  <data name="toolStripSplitButtonUncheckAll" xml:space="preserve">
+    <value>Uncheck All Scenarios</value>
+  </data>
+  <data name="toolStripButtonExpandAll" xml:space="preserve">
+    <value>Expand All</value>
+  </data>
+  <data name="toolStripButtonCollapseAll" xml:space="preserve">
+    <value>Collapse All</value>
+  </data>
+  <data name="checkChildrenToolStripMenuItem" xml:space="preserve">
+    <value>Check Children</value>
+  </data>
+  <data name="checkHierarchyToolStripMenuItem" xml:space="preserve">
+    <value>Check Hierarchy</value>
+  </data>
+  <data name="uncheckChildrenToolStripMenuItem" xml:space="preserve">
+    <value>Uncheck Children</value>
+  </data>
+  <data name="uncheckHierarchyToolStripMenuItem" xml:space="preserve">
+    <value>Uncheck Hierarchy</value>
+  </data>
+  <data name="menuItemReportTimeStep" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="OpenOnSelection_NoElementsOfType" xml:space="preserve">
+    <value>There are no %1 elements selected.</value>
+  </data>
+  <data name="OpenOnSelection_NoElementType" xml:space="preserve">
+    <value>There are no elements selected.</value>
+  </data>
+  <data name="OpenOnSelection_NoElements" xml:space="preserve">
+    <value>The selected elements were not found in the table.</value>
+  </data>
+  <data name="MicrosoftBingTermsOfUse" xml:space="preserve">
+    <value>Microsoft Bing Terms of Use</value>
+  </data>
+  <data name="MicrosoftBingPrintRights" xml:space="preserve">
+    <value>Microsoft Bing Print Rights</value>
+  </data>
+  <data name="OpenFileLocation" xml:space="preserve">
+    <value>Open File Location</value>
+  </data>
+  <data name="OpenProgramDataLocation" xml:space="preserve">
+    <value>Open Program Data Folder</value>
+  </data>
+  <data name="OpenWorkingFolder" xml:space="preserve">
+    <value>Open Working Folder</value>
+  </data>
+  <data name="OpenUserSettingsLocation" xml:space="preserve">
+    <value>Open User Settings Folder</value>
+  </data>
+  <data name="ChangeTrackingPromptLabel" xml:space="preserve">
+    <value>This version of the software introduces a new Change Tracking feature.
+
+Change Tracking allows you to track edits (add/modify/delete of model elements in your hydraulic model), which you can later review.
+Change Tracking is optional, and can be turned on or off at any time (refer to the Review tab in the Ribbon).
+        </value>
+  </data>
+  <data name="groupHeaderUserControlLockTracking" xml:space="preserve">
+    <value>Prevent other users from turning off Track Changes</value>
+  </data>
+  <data name="newFileDialog" xml:space="preserve">
+    <value>New File</value>
+  </data>
+  <data name="hfa.CulinCompanyInformationCompanyAddress" xml:space="preserve">
+    <value>41 Claremont Street</value>
+  </data>
+  <data name="hfa.CulinCompanyInformationCompanyCityState" xml:space="preserve">
+    <value>Bristol, CT 06010    USA</value>
+  </data>
+  <data name="hfa.CulinCompanyInformationCompanyEmail" xml:space="preserve">
+    <value>Contact Technical Support</value>
+  </data>
+  <data name="hfa.CulinCompanyInformationCompanyFax" xml:space="preserve">
+    <value />
+  </data>
+  <data name="hfa.CulinCompanyInformationCompanyName" xml:space="preserve">
+    <value>Culin Enterprises, Inc.</value>
+  </data>
+  <data name="hfa.CulinCompanyInformationCompanyPhone" xml:space="preserve">
+    <value>860-261-4531</value>
+  </data>
+  <data name="hfa.CulinCompanyInformationCompanyWebLink" xml:space="preserve">
+    <value>www.culin.org</value>
+  </data>
+  <data name="AccountBalanceLabel" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="ReconciledBalanceLabel" xml:space="preserve">
+    <value>Reconciled</value>
+  </data>
+  <data name="DifferenceLabel" xml:space="preserve">
+    <value>Difference</value>
+  </data>
+  <data name="AccountView" xml:space="preserve">
+    <value>Account View:  %1</value>
+  </data>
+  <data name="AccountsBalanceLabel" xml:space="preserve">
+    <value>Accounts Balance</value>
+  </data>
+  <data name="buttonNew" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="buttonEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="buttonDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="buttonDuplicate" xml:space="preserve">
+    <value>Duplicate</value>
+  </data>
+  <data name="DeleteTransactionQuestion" xml:space="preserve">
+    <value>Do you really want to delete the selected transaction?</value>
+  </data>
+  <data name="DeleteTransactionCaption" xml:space="preserve">
+    <value>Confirm Transaction Deletion</value>
+  </data>
+  <data name="hdcf.MainFormTitleFormat" xml:space="preserve">
+    <value> (%1)</value>
+  </data>
+  <data name="TransactionType_ViewAllTransactions" xml:space="preserve">
+    <value>View All Transactions</value>
+  </data>
+  <data name="TransactionType_ViewToday" xml:space="preserve">
+    <value>View Today</value>
+  </data>
+  <data name="TransactionType_ViewCurrentMonth" xml:space="preserve">
+    <value>View Current Month</value>
+  </data>
+  <data name="TransactionType_ViewLast30Days" xml:space="preserve">
+    <value>View Last 30 Days</value>
+  </data>
+  <data name="TransactionType_ViewLast90Days" xml:space="preserve">
+    <value>View Last 90 Days</value>
+  </data>
+  <data name="TransactionType_ViewLastMonth" xml:space="preserve">
+    <value>View Last Month</value>
+  </data>
+  <data name="TransactionType_ViewLast3Months" xml:space="preserve">
+    <value>View Last 3 Months</value>
+  </data>
+  <data name="TransactionType_ViewLast12Months" xml:space="preserve">
+    <value>View Last 12 Months</value>
+  </data>
+  <data name="TransactionType_ViewCurrentYear" xml:space="preserve">
+    <value>View Current Year</value>
+  </data>
+  <data name="TransactionType_ViewCurrentFinancialYear" xml:space="preserve">
+    <value>View Current Financial Year</value>
+  </data>
+  <data name="TransactionType_ViewLastYear" xml:space="preserve">
+    <value>View Last Year</value>
+  </data>
+  <data name="TransactionType_ViewLastFinancialYear" xml:space="preserve">
+    <value>View Last Financial Year</value>
+  </data>
+  <data name="TransactionType_ViewSinceStatementDate" xml:space="preserve">
+    <value>View Since Last Statement</value>
+  </data>
+  <data name="buttonActivate" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="buttonDeactivate" xml:space="preserve">
+    <value>Deactivate</value>
+  </data>
+  <data name="buttonClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="TransactionFilter0" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TransactionFilter1" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TransactionFilter2" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TransactionFilter3" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="TransactionFilter4" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="TransactionFilter5" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="TransactionFilter6" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="TransactionFilter7" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="TransactionFilter8" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="TransactionFilter9" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="TransactionsFilterFormModel" xml:space="preserve">
+    <value>Transaction Filter</value>
+  </data>
+  <data name="FilterTransactionStatusType_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="FilterTransactionStatusType_Reconciled" xml:space="preserve">
+    <value>Reconciled</value>
+  </data>
+  <data name="FilterTransactionStatusType_Void" xml:space="preserve">
+    <value>Void</value>
+  </data>
+  <data name="FilterTransactionStatusType_FollowUp" xml:space="preserve">
+    <value>Follow up</value>
+  </data>
+  <data name="FilterTransactionStatusType_Duplicate" xml:space="preserve">
+    <value>Duplicate</value>
+  </data>
+  <data name="FilterTransactionStatusType_UnReconciled" xml:space="preserve">
+    <value>Unreconciled</value>
+  </data>
+  <data name="FilterTransactionStatusType_AllExceptReconciled" xml:space="preserve">
+    <value>All Except Reconciled</value>
+  </data>
+  <data name="labelTransactionFilter" xml:space="preserve">
+    <value>Transaction Filter</value>
+  </data>
+  <data name="Accounts" xml:space="preserve">
+    <value>Accounts</value>
+  </data>
+  <data name="AccountsList" xml:space="preserve">
+    <value>Accounts</value>
+  </data>
+  <data name="AccountsSelectAccount" xml:space="preserve">
+    <value>Select Account</value>
+  </data>
+  <data name="AccountsNewAccount" xml:space="preserve">
+    <value>New Account</value>
+  </data>
+  <data name="AccountsEditAccount" xml:space="preserve">
+    <value>Edit Account</value>
+  </data>
+  <data name="AccountsReallocateAccount" xml:space="preserve">
+    <value>Reallocate Account</value>
+  </data>
+  <data name="AccountsDeleteAccount" xml:space="preserve">
+    <value>Delete Account</value>
+  </data>
+  <data name="SelectAccountFormModel" xml:space="preserve">
+    <value>Select Account</value>
+  </data>
+  <data name="labelSelectAccount" xml:space="preserve">
+    <value>Select Account from the List</value>
+  </data>
+  <data name="tabPageNotes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="tabPageOthers" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="tabPageStatement" xml:space="preserve">
+    <value>Statement</value>
+  </data>
+  <data name="tabPageCredit" xml:space="preserve">
+    <value>Credit</value>
+  </data>
+  <data name="ToolsOrganizeCategories" xml:space="preserve">
+    <value>Organize Categories</value>
+  </data>
+  <data name="ToolsReallocateCategories" xml:space="preserve">
+    <value>Reallocate Categories</value>
+  </data>
+  <data name="ToolsOrganizePayees" xml:space="preserve">
+    <value>Organize Payees</value>
+  </data>
+  <data name="ToolsReallocatePayees" xml:space="preserve">
+    <value>Reallocate Payees</value>
+  </data>
+  <data name="ToolsEditPayee" xml:space="preserve">
+    <value>Edit Payee</value>
+  </data>
+  <data name="ToolsOrganizeCurrency" xml:space="preserve">
+    <value>Organize Currency</value>
+  </data>
+  <data name="ToolsReallocate" xml:space="preserve">
+    <value>Reallocate</value>
+  </data>
+  <data name="ToolsBudgetSetup" xml:space="preserve">
+    <value>Budget Setup</value>
+  </data>
+  <data name="ToolsRecurringTransactions" xml:space="preserve">
+    <value>Recurring Transactions</value>
+  </data>
+  <data name="ToolsAssets" xml:space="preserve">
+    <value>Assets</value>
+  </data>
+  <data name="ToolsTransactionReportFilter" xml:space="preserve">
+    <value>Transaction Filter</value>
+  </data>
+  <data name="ToolsGeneralReportManager" xml:space="preserve">
+    <value>General Report Manager</value>
+  </data>
+  <data name="ViewDisplayShareAccounts" xml:space="preserve">
+    <value>Display Share Accounts</value>
+  </data>
+  <data name="ViewBudgetsAsFinancialYears" xml:space="preserve">
+    <value>Budgets as Financial Years</value>
+  </data>
+  <data name="ViewBudgetSetupWithoutSummaries" xml:space="preserve">
+    <value>Budgets Setup without Summaries</value>
+  </data>
+  <data name="ViewBudgetCategoryReportWithSummaries" xml:space="preserve">
+    <value>Budget Category with Summaries</value>
+  </data>
+  <data name="ViewIgnoreFutureTransactions" xml:space="preserve">
+    <value>Ignore Future Transactions</value>
+  </data>
+  <data name="ViewBudgetsIncludeTransfersInTotals" xml:space="preserve">
+    <value>Budgets Include Transfers in Totals</value>
+  </data>
+  <data name="ViewToggleFullscreen" xml:space="preserve">
+    <value>Toggle Fullscreen</value>
+  </data>
+  <data name="ToolsDatabase" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="ToolsDatabaseEncrypt" xml:space="preserve">
+    <value>Encrypt Database</value>
+  </data>
+  <data name="ToolsDatabaseChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="ToolsDatabaseOptimize" xml:space="preserve">
+    <value>Optimize Database</value>
+  </data>
+  <data name="ToolsDatabaseDebug" xml:space="preserve">
+    <value>Debug Database</value>
+  </data>
+  <data name="FileImport" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="FileImportCSV" xml:space="preserve">
+    <value>Comma Separated Values</value>
+  </data>
+  <data name="FileImportXML" xml:space="preserve">
+    <value>XML</value>
+  </data>
+  <data name="FileImportQIF" xml:space="preserve">
+    <value>QIF</value>
+  </data>
+  <data name="FileImportWebApp" xml:space="preserve">
+    <value>WebApp</value>
+  </data>
+  <data name="FileExportCSV" xml:space="preserve">
+    <value>Comma Separated Values</value>
+  </data>
+  <data name="FileExportXML" xml:space="preserve">
+    <value>XML</value>
+  </data>
+  <data name="FileExportQIF" xml:space="preserve">
+    <value>QIF</value>
+  </data>
+  <data name="FileExportHTML" xml:space="preserve">
+    <value>HTML</value>
+  </data>
+  <data name="HelpProduct" xml:space="preserve">
+    <value>MoneyEx Help</value>
+  </data>
+  <data name="HelpShowAppStartDialog" xml:space="preserve">
+    <value>Show App Start Dialog</value>
+  </data>
+  <data name="HelpCheckForUpdates" xml:space="preserve">
+    <value>Check for Updates</value>
+  </data>
+  <data name="HelpGetAndroidVersion" xml:space="preserve">
+    <value>Get Android Version</value>
+  </data>
+  <data name="HelpVisitMNYXForum" xml:space="preserve">
+    <value>Visit MoneyEx Forum</value>
+  </data>
+  <data name="HelpRegisterViewReleaseInformation" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="HelpVisitUsOnFacebook" xml:space="preserve">
+    <value>Visit Us on Facebook</value>
+  </data>
+  <data name="HelpAboutProduct" xml:space="preserve">
+    <value>About MoneyEx</value>
+  </data>
+  <data name="TransactionFormModel" xml:space="preserve">
+    <value>Edit Transaction</value>
+  </data>
+  <data name="groupBoxTransactionDetails" xml:space="preserve">
+    <value>Transaction Details</value>
+  </data>
+  <data name="FromAccountID" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="TransactionStatus_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="TransactionStatus_Reconciled" xml:space="preserve">
+    <value>Reconciled</value>
+  </data>
+  <data name="TransactionStatus_Void" xml:space="preserve">
+    <value>Void</value>
+  </data>
+  <data name="TransactionStatus_FollowUp" xml:space="preserve">
+    <value>Follow-up</value>
+  </data>
+  <data name="TransactionStatus_Duplicate" xml:space="preserve">
+    <value>Duplicate</value>
+  </data>
+  <data name="TransactionType_Withdrawal" xml:space="preserve">
+    <value>Withdrawal</value>
+  </data>
+  <data name="TransactionType_Deposit" xml:space="preserve">
+    <value>Deposit</value>
+  </data>
+  <data name="TransactionType_Transfer" xml:space="preserve">
+    <value>Transfer</value>
+  </data>
+  <data name="buttonOpenLast" xml:space="preserve">
+    <value>Open Last Opened Database</value>
+  </data>
+  <data name="buttonCreateNewDatabase" xml:space="preserve">
+    <value>Create a New Database</value>
+  </data>
+  <data name="buttonOpenExistingDatabase" xml:space="preserve">
+    <value>Open Existing Database</value>
+  </data>
+  <data name="buttonReadDocumentation" xml:space="preserve">
+    <value>Read Documentation</value>
+  </data>
+  <data name="buttonVisitWebsite" xml:space="preserve">
+    <value>Visit Website for more information</value>
+  </data>
+  <data name="checkBoxShowOnStartup" xml:space="preserve">
+    <value>Show this window next time MoneyEx starts</value>
+  </data>
+  <data name="moneyex" xml:space="preserve">
+    <value>MoneyEX</value>
+  </data>
+  <data name="CategoriesLabel" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="buttonAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="buttonRemove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="labelSplitTransactionDetails" xml:space="preserve">
+    <value>Split Category Details</value>
+  </data>
+  <data name="labelTotal" xml:space="preserve">
+    <value>Total:  $%1</value>
+  </data>
+  <data name="SplitTransactionsDialog" xml:space="preserve">
+    <value>Split Transaction Dialog</value>
+  </data>
+  <data name="buttonClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="OrganizeCategoriesForm" xml:space="preserve">
+    <value>Organize Categories</value>
+  </data>
+  <data name="DefaultCategory" xml:space="preserve">
+    <value>DefaultCategory</value>
+  </data>
+  <data name="NewAccountWizard" xml:space="preserve">
+    <value>New Account</value>
+  </data>
+  <data name="AccountListListViewEditorModel" xml:space="preserve">
+    <value>Accounts</value>
+  </data>
+  <data name="AccountSummaryViewer" xml:space="preserve">
+    <value>Account Summary</value>
+  </data>
+  <data name="CategoriesTreeViewControlModel" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="EditAccountEditorModel" xml:space="preserve">
+    <value>Edit Account</value>
+  </data>
+  <data name="NewAccountName_Title" xml:space="preserve">
+    <value>Account Name</value>
+  </data>
+  <data name="NewAccountType_Description" xml:space="preserve">
+    <value>Select the type of account you want to create.</value>
+  </data>
+  <data name="NewAccountType_Title" xml:space="preserve">
+    <value>Account Type</value>
+  </data>
+  <data name="NewAccountWelcome_Description" xml:space="preserve">
+    <value>MoneyEx models all transactions as belonging to accounts.</value>
+  </data>
+  <data name="NewAccountWelcome_Title" xml:space="preserve">
+    <value>New Account Wizard</value>
+  </data>
+  <data name="NewAccount_Description" xml:space="preserve">
+    <value>Specify a descriptive name for the acount.%nThis is generally the name of a financial institution where the account is held. For example, 'ABCBank'.</value>
+  </data>
+  <data name="OrganizePayeesDataListViewEditorModel" xml:space="preserve">
+    <value>Payees</value>
+  </data>
+  <data name="OrganizePayeesFormModel" xml:space="preserve">
+    <value>Organize Payees</value>
+  </data>
+  <data name="SplitTransactionDetails" xml:space="preserve">
+    <value>Split Transaction Details</value>
+  </data>
+  <data name="SplitTransactionDetailsEditorModel" xml:space="preserve">
+    <value>Split Transaction Details</value>
+  </data>
+  <data name="SplitTransactionModel" xml:space="preserve">
+    <value>Split Transactions</value>
+  </data>
+  <data name="TransactionEditorModel" xml:space="preserve">
+    <value>Edit Transaction</value>
+  </data>
+  <data name="TransactionFilterTableModel" xml:space="preserve">
+    <value>Transaction Filter</value>
+  </data>
+  <data name="ellipsis" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="progressopeningFile" xml:space="preserve">
+    <value>Opening file...</value>
+  </data>
+  <data name="TransactionMark" xml:space="preserve">
+    <value>Mark</value>
+  </data>
+  <data name="Transaction_AsDuplicate" xml:space="preserve">
+    <value>as Duplicate</value>
+  </data>
+  <data name="Transaction_AsNeedingFollowUp" xml:space="preserve">
+    <value>as needing Follow-up</value>
+  </data>
+  <data name="Transaction_AsReconciled" xml:space="preserve">
+    <value>as Reconciled</value>
+  </data>
+  <data name="Transaction_AsUnreconciled" xml:space="preserve">
+    <value>as Unreconciled</value>
+  </data>
+  <data name="Transaction_AsVoid" xml:space="preserve">
+    <value>as Void</value>
+  </data>
+  <data name="Transaction_Copy" xml:space="preserve">
+    <value>Copy Transaction</value>
+  </data>
+  <data name="Transaction_CreateRecurring" xml:space="preserve">
+    <value>Create Reoccurring Transaction</value>
+  </data>
+  <data name="Transaction_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Transaction_DeleteAllInCurrentView" xml:space="preserve">
+    <value>Delete all transactions in current view</value>
+  </data>
+  <data name="Transaction_DeleteTransaction" xml:space="preserve">
+    <value>Delete Transaction</value>
+  </data>
+  <data name="Transaction_DeleteViewedFollowUp" xml:space="preserve">
+    <value>Delete viewed "Follow-up" Transactions</value>
+  </data>
+  <data name="Transaction_DeleteViewedUnreconciled" xml:space="preserve">
+    <value>Delete viewed "Unreconciled" Transactions</value>
+  </data>
+  <data name="Transaction_Duplicate" xml:space="preserve">
+    <value>Duplicate Transaction</value>
+  </data>
+  <data name="Transaction_Edit" xml:space="preserve">
+    <value>Edit Transaction</value>
+  </data>
+  <data name="Transaction_MarkAsDuplicate" xml:space="preserve">
+    <value>Mark as Duplicate</value>
+  </data>
+  <data name="Transaction_MarkAsReconciled" xml:space="preserve">
+    <value>Mark as Reconciled</value>
+  </data>
+  <data name="Transaction_MarkAsUnreconciled" xml:space="preserve">
+    <value>Mark as Unreconciled</value>
+  </data>
+  <data name="Transaction_MarkAsVoid" xml:space="preserve">
+    <value>Mark as Void</value>
+  </data>
+  <data name="Transaction_MarkForFollowUp" xml:space="preserve">
+    <value>Mark for Follow-up</value>
+  </data>
+  <data name="Transaction_MarkInView" xml:space="preserve">
+    <value>Mark all being viewed</value>
+  </data>
+  <data name="Transaction_Move" xml:space="preserve">
+    <value>Move Transaction</value>
+  </data>
+  <data name="Transaction_NewDeposit" xml:space="preserve">
+    <value>New Deposit</value>
+  </data>
+  <data name="Transaction_NewTransfer" xml:space="preserve">
+    <value>New Transfer</value>
+  </data>
+  <data name="Transaction_NewWithdrawal" xml:space="preserve">
+    <value>New Withdrawal</value>
+  </data>
+  <data name="Transaction_OrganizeAttachments" xml:space="preserve">
+    <value>Organize Attachments</value>
+  </data>
+  <data name="Transaction_Paste" xml:space="preserve">
+    <value>Paste Transaction</value>
+  </data>
+  <data name="Transaction_ViewSplitCategories" xml:space="preserve">
+    <value>View Split Categories</value>
+  </data>
+  <data name="ReallocateCategoryCountMessage" xml:space="preserve">
+    <value>Please Confirm:
+        
+Records found in transactions:  %1
+Records found in split transactions:  %2
+Records found in recurring transactions:  %3
+Records found in recurring split transactions:  %4
+Records found in Default Payee Category:  %5
+Records found in budget:  %6</value>
+  </data>
+  <data name="ReallocateCategoryFromTo" xml:space="preserve">
+    <value>Changing all categories of:%n%1 to category: %2</value>
+  </data>
+  <data name="ReallocateCategoryMessage" xml:space="preserve">
+    <value>%1%n%n%2</value>
+  </data>
+  <data name="labelReallocateMsg" xml:space="preserve">
+    <value>Reallocate all source categories to the destination category</value>
+  </data>
+  <data name="labelReallocateSource" xml:space="preserve">
+    <value>Reallocate:</value>
+  </data>
+  <data name="labelToCategory" xml:space="preserve">
+    <value>To:</value>
+  </data>
+  <data name="buttonSourceCategory" xml:space="preserve">
+    <value>Source Category</value>
+  </data>
+  <data name="buttonDestinationCategory" xml:space="preserve">
+    <value>Destination Category</value>
+  </data>
+  <data name="ReallocateCategory" xml:space="preserve">
+    <value>Reallocate Category Dialog</value>
+  </data>
+  <data name="Payee_AddPayeeGroupText" xml:space="preserve">
+    <value>Enter Payee Name</value>
+  </data>
+  <data name="Payee_AddPayeeFormText" xml:space="preserve">
+    <value>Payee</value>
+  </data>
+  <data name="Payee_PayeeInUse" xml:space="preserve">
+    <value>The payee name is already in use.</value>
+  </data>
+  <data name="DefineDefaultCategory" xml:space="preserve">
+    <value>Define Default Category</value>
+  </data>
+  <data name="AddPayee" xml:space="preserve">
+    <value>Add Payee</value>
+  </data>
+  <data name="EditPayee" xml:space="preserve">
+    <value>Edit Payee</value>
+  </data>
+  <data name="RemovePayee" xml:space="preserve">
+    <value>Remove Payee</value>
+  </data>
+  <data name="OrganizeAttachments" xml:space="preserve">
+    <value>Organize Attachments</value>
+  </data>
+  <data name="RelocatePayee" xml:space="preserve">
+    <value>Relocate Payee</value>
+  </data>
+  <data name="labelSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="placeholderSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="AppendNotesLabel" xml:space="preserve">
+    <value>Append</value>
+  </data>
+  <data name="ApplyAmountLabel" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="ApplyCategoryLabel" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="ApplyDateLabel" xml:space="preserve">
+    <value>Apply Date</value>
+  </data>
+  <data name="ApplyNotesLabel" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="ApplyPayeeLabel" xml:space="preserve">
+    <value>Payee</value>
+  </data>
+  <data name="ApplyStatusLabel" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="ApplyTypeLabel" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="DateLabel" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="groupBoxSpecify" xml:space="preserve">
+    <value>Specify</value>
+  </data>
+  <data name="MultiEditTransactionEditorModel" xml:space="preserve">
+    <value>Multi Transactions Update</value>
+  </data>
+  <data name="MultiEditTransactionFormModel" xml:space="preserve">
+    <value>Multi Transactions Update</value>
+  </data>
+  <data name="TypeLabel" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Transaction_ConfirmNewPayeeQuestion" xml:space="preserve">
+    <value>Do you want to add new payee:%n%1</value>
+  </data>
+  <data name="Transaction_ConfirmNewPayeeTitle" xml:space="preserve">
+    <value>Confirm to add new payee</value>
+  </data>
+  <data name="RepeatType_BiMonthly" xml:space="preserve">
+    <value>Bi-Monthly</value>
+  </data>
+  <data name="RepeatType_BiWeekly" xml:space="preserve">
+    <value>Bi-Weekly</value>
+  </data>
+  <data name="RepeatType_Daily" xml:space="preserve">
+    <value>Daily</value>
+  </data>
+  <data name="RepeatType_EveryXDays" xml:space="preserve">
+    <value>Every %1 days</value>
+  </data>
+  <data name="RepeatType_EveryXMonths" xml:space="preserve">
+    <value>Every %1 months</value>
+  </data>
+  <data name="RepeatType_FourMonthly" xml:space="preserve">
+    <value>Four-Monthly</value>
+  </data>
+  <data name="RepeatType_FourWeekly" xml:space="preserve">
+    <value>Four-Weekly</value>
+  </data>
+  <data name="RepeatType_HalfYearly" xml:space="preserve">
+    <value>Half-Yearly</value>
+  </data>
+  <data name="RepeatType_Inactive" xml:space="preserve">
+    <value>Inactive</value>
+  </data>
+  <data name="RepeatType_InXDays" xml:space="preserve">
+    <value>In %1 days</value>
+  </data>
+  <data name="RepeatType_InXMonths" xml:space="preserve">
+    <value>In %1 months</value>
+  </data>
+  <data name="RepeatType_Monthly" xml:space="preserve">
+    <value>Monthly</value>
+  </data>
+  <data name="RepeatType_MonthlyLastBusinessDay" xml:space="preserve">
+    <value>Monthly (last business day)</value>
+  </data>
+  <data name="RepeatType_MonthlyLastDay" xml:space="preserve">
+    <value>Monthly (last day)</value>
+  </data>
+  <data name="RepeatType_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="RepeatType_Quarterly" xml:space="preserve">
+    <value>Quarterly</value>
+  </data>
+  <data name="RepeatType_Weekly" xml:space="preserve">
+    <value>Weekly</value>
+  </data>
+  <data name="RepeatType_Yearly" xml:space="preserve">
+    <value>Yearly</value>
+  </data>
+  <data name="DaysRemaining" xml:space="preserve">
+    <value>%1 days remaining</value>
+  </data>
+  <data name="DaysDelayed" xml:space="preserve">
+    <value>%1 days delay!</value>
+  </data>
+  <data name="DaysOverdue" xml:space="preserve">
+    <value>%1 days overdue!</value>
+  </data>
+  <data name="AutoRepeatType_Automated" xml:space="preserve">
+    <value>Automated</value>
+  </data>
+  <data name="AutoRepeatType_Manual" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="AutoRepeatType_Suggested" xml:space="preserve">
+    <value>Suggested</value>
+  </data>
+  <data name="FollowUpIDLabel" xml:space="preserve">
+    <value>Follow up</value>
+  </data>
+  <data name="FrequencyLabel" xml:space="preserve">
+    <value>Frequency</value>
+  </data>
+  <data name="NextOcurrenceDateLabel" xml:space="preserve">
+    <value>Date Due</value>
+  </data>
+  <data name="NumberOfOccurrencesLabel" xml:space="preserve">
+    <value>Payments Left</value>
+  </data>
+  <data name="PaymentLabel" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="RepeatsLabel" xml:space="preserve">
+    <value>Repeats</value>
+  </data>
+  <data name="RepititionsLabel" xml:space="preserve">
+    <value>Repititions</value>
+  </data>
+  <data name="SplitTransactionAmountLabel" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="ToAccountNameLabel" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="ToTransactionAmountLabel" xml:space="preserve">
+    <value>To Transaction Amount</value>
+  </data>
+  <data name="TransactionIDLabel" xml:space="preserve">
+    <value>Transaction Id</value>
+  </data>
+  <data name="AutomaticEntryLabel" xml:space="preserve">
+    <value>Grant automatic execute permission for this entry.</value>
+  </data>
+  <data name="DateDueLabel" xml:space="preserve">
+    <value>Date Due</value>
+  </data>
+  <data name="DatePaidLabel" xml:space="preserve">
+    <value>Date Paid</value>
+  </data>
+  <data name="SuggestedEntryLabel" xml:space="preserve">
+    <value>Request user to enter payment on the 'Date Paid'</value>
+  </data>
+  <data name="AutorepeatLabel" xml:space="preserve">
+    <value>Autorepeat</value>
+  </data>
+  <data name="RecurringTransactionsControlModel" xml:space="preserve">
+    <value>Recurring Transactions</value>
+  </data>
+  <data name="argumentOutOfRangeException_NeedNonNegativeNumber" xml:space="preserve">
+    <value>Argument Out of Range Exception:Need Non Negative Number</value>
+  </data>
+  <data name="none" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="percent" xml:space="preserve">
+    <value>Percent</value>
+  </data>
+  <data name="percentPercent" xml:space="preserve">
+    <value>%%</value>
+  </data>
+  <data name="securityExceptionAssertWasAlreadyCalled" xml:space="preserve">
+    <value>Assert was already called.</value>
+  </data>
+  <data name="unitlessPercent" xml:space="preserve">
+    <value />
+  </data>
+  <data name="unitlessUnit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="2cbc81fc-674d-4976-b227-94189e60fb78" xml:space="preserve">
+    <value>Recurring Transactions</value>
+  </data>
+  <data name="buttonEnter" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="buttonSkip" xml:space="preserve">
+    <value>Skip</value>
+  </data>
+  <data name="BillDeposit_EnterNext" xml:space="preserve">
+    <value>Enter next Occurrence...</value>
+  </data>
+  <data name="BillDeposit_SkipNext" xml:space="preserve">
+    <value>Skip next Occurrence</value>
+  </data>
+  <data name="BillDeposit_DeleteSeries" xml:space="preserve">
+    <value>Delete Bills &amp; Deposit Series...</value>
+  </data>
+  <data name="BillDeposit_EditSeries" xml:space="preserve">
+    <value>Edit Bills &amp; Deposit Series...</value>
+  </data>
+  <data name="BillDeposit_NewSeries" xml:space="preserve">
+    <value>New Bills &amp; Deposit Series...</value>
+  </data>
+  <data name="groupBoxRecurringTransactionDetails" xml:space="preserve">
+    <value>Recurring Transaction Details</value>
+  </data>
+  <data name="groupBoxTransactionDate" xml:space="preserve">
+    <value>Transaction Dates</value>
+  </data>
+  <data name="checkBoxRequestAutomaticEntry" xml:space="preserve">
+    <value>Grant automatic execute permission for this entry.</value>
+  </data>
+  <data name="checkBoxRequestManualEntry" xml:space="preserve">
+    <value>Request user to enter payment on the 'Date Paid'</value>
+  </data>
+  <data name="RecurringTransactionEditFormModel" xml:space="preserve">
+    <value>Edit Recurring Transaction</value>
+  </data>
+  <data name="RecurringTransactions_DeleteQuestion" xml:space="preserve">
+    <value>Do you really want to delete the series?</value>
+  </data>
+  <data name="RecurringTransactions_Title" xml:space="preserve">
+    <value>Confirm Series Deletion</value>
+  </data>
+</root>

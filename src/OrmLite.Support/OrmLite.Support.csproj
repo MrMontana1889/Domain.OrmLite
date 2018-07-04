@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8159CDEB-8FAB-4470-B623-921088A9EAAD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OrmLite.Support</RootNamespace>
+    <AssemblyName>OrmLite.Support</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <BaseIntermediateOutputPath>..\..\..\Output\$(AssemblyName)\obj</BaseIntermediateOutputPath>
+    <OutputPath>..\..\..\Output\$(AssemblyName)\bin\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <BaseIntermediateOutputPath>..\..\..\Output\$(AssemblyName)\obj</BaseIntermediateOutputPath>
+    <OutputPath>..\..\..\Output\$(AssemblyName)\bin\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Library\CollectionLibrary.cs" />
+    <Compile Include="Library\DictionaryLibrary.cs" />
+    <Compile Include="Library\NumericFormatterLibrary.cs" />
+    <Compile Include="Library\StringBuilderLibrary.cs" />
+    <Compile Include="Library\StringLibrary.cs" />
+    <Compile Include="Library\TypeLibrary.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Support\BooleanObjectField.cs" />
+    <Compile Include="Support\DateTimeObjectField.cs" />
+    <Compile Include="Support\Enumerations.cs" />
+    <Compile Include="Support\FieldBase.cs" />
+    <Compile Include="Support\FieldType.cs" />
+    <Compile Include="Support\Hashset.cs" />
+    <Compile Include="Support\Interfaces.cs" />
+    <Compile Include="Support\ObjectEditField.cs" />
+    <Compile Include="Support\ObjectField.cs" />
+    <Compile Include="Support\ObjectFieldBase.cs" />
+    <Compile Include="Support\UnitizedObjectEditFieldBase.cs" />
+    <Compile Include="Support\UnitizedObjectField.cs" />
+    <Compile Include="Support\UnitizedObjectFieldBase.cs" />
+    <Compile Include="Units\CurrencyBasedUnit.cs" />
+    <Compile Include="Units\Dimension.cs" />
+    <Compile Include="Units\Enumerations.cs" />
+    <Compile Include="Units\Interfaces.cs" />
+    <Compile Include="Units\NumberFormatInfoLibrary.cs" />
+    <Compile Include="Units\NumericConversionHandler.cs" />
+    <Compile Include="Units\NumericFormatter.cs" />
+    <Compile Include="Units\StandardFormatters.cs" />
+    <Compile Include="Units\Unit.cs" />
+    <Compile Include="Units\UnitConversionManager.cs" />
+    <Compile Include="Units\UnitSystem.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="OrmLite.Support.licenseheader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OrmLite.Resources\OrmLite.Resources.csproj">
+      <Project>{b572c4be-ff55-483d-81fd-e4e64a79c96f}</Project>
+      <Name>OrmLite.Resources</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
